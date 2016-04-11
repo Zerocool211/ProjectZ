@@ -1,0 +1,21 @@
+[
+{
+  "modid": "zeromod",
+  "name": "Zero Mod",
+  "description": "Zero Mod Is A New Mod...",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authors": [
+    "Zerocool211"
+  ],
+  "credits": "By Zerocool211",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
