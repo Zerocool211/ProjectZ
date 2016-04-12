@@ -1,9 +1,11 @@
 package zerocool211.mods.projectz;
 
+import zerocool211.mods.projectz.common.FuelHandler;
 import zerocool211.mods.projectz.items.CoalFragment;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import cpw.mods.fml.common.IFuelHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -16,6 +18,8 @@ public class ProjectZ {
 
 	public static Item coalFragment;
 	
+	FuelHandler fuelHandler = new FuelHandler();
+	
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
@@ -24,6 +28,8 @@ public class ProjectZ {
     	
     	coalFragment = new CoalFragment().setUnlocalizedName("coalfragment").setTextureName("projectz:coalfragment");
     	GameRegistry.registerItem(coalFragment, coalFragment.getUnlocalizedName().substring(5));
+    	
+    	GameRegistry.registerFuelHandler((IFuelHandler) fuelHandler);
     	
     }
 
