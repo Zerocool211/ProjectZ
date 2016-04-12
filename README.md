@@ -3,9 +3,10 @@ ProjectZ
 
 A New 1.7.10 Mod To Replace My Other Mods...
 
-Things To Add:
+Things That Have Been Added:
 
-TODO
+Coal Fragment, 1 coal splits into 8 coal fragments, 1 coal fragment can smelt 1 item.
+(at the moment only the item itself has been added)
 
 Licence:
 http://creativecommo...s/by-nc-nd/3.0/
