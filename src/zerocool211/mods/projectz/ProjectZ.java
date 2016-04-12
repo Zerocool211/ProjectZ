@@ -6,6 +6,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
+@Mod(modid = "projectz", name = "ProjectZ", version = "1.0")
 public class ProjectZ {
 
     @EventHandler
