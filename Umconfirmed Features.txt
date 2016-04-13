@@ -15,5 +15,10 @@ Corrupted Sand.
 
 Corrupted Sandstone, Slabs and Stairs.
 
+Corrupted Ash, made by smelting Corrupted Sand.
+
 Ultra Essence.
 
+Essence Plant and Seeds.
+
+Dull Stone that turns into a Blood Stone by taking hearts away from the player.
