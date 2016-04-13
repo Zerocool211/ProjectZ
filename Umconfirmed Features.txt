@@ -1,2 +1,19 @@
-Planned Features:
+Unconfirmed Features:
+---------------------
+
+Essence Ores for overworld and nether.
+
+Omni Aspect.(not sure about name yet, maybe i will change name to Omni Essence)
+
+Omni Planks and Omni Sticks.
+
+Omni Crystal.
+
+Omni Tools and Armor.
+
+Corrupted Sand.
+
+Corrupted Sandstone, Slabs and Stairs.
+
+Ultra Essence.
 

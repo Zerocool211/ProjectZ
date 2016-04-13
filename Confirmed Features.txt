@@ -1,3 +1,4 @@
 Confirmed Features:
+-------------------
 
 Lesser Essence, Essence and Greater Essence.
