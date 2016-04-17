@@ -1,8 +1,6 @@
 Unconfirmed Features:
 ---------------------
 
-Essence Ores for overworld and nether.
-
 Omni Aspect.(not sure about name yet, maybe i will change name to Omni Essence)
 
 Omni Planks and Omni Sticks.
@@ -18,7 +16,5 @@ Corrupted Sandstone, Slabs and Stairs.
 Corrupted Ash, made by smelting Corrupted Sand.
 
 Ultra Essence.
-
-Essence Plant and Seeds.
 
 Dull Stone that turns into a Blood Stone by taking hearts away from the player.
