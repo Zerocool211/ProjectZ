@@ -1,3 +1,8 @@
 Confirmed Features:
 -------------------
 
+Cobblestone Essence - will place cobblestone when right clicked, might have durability.
+
+Water Essence - will place water when right clicked, might have durability. 
+
+Lava Essence - will place lava when right clicked, might have durability.
