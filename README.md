@@ -7,12 +7,7 @@ The mod will be closed source to begin with, it will be open source soon.
 
 Things That Have Been Added:
 
-Fake Diamond
-Fake Diamond Sword
-Fake Diamond Shovel
-Fake Diamond Pickaxe
-Fake Diamond Axe
-Fake Diamond Hoe
+Fake Diamond, Fake Diamond Sword, Fake Diamond Shovel, Fake Diamond Pickaxe, Fake Diamond Axe, Fake Diamond Hoe and
 Fake Diamond Block
 
 Fake diamond tools will have 15 times less durability than diamond tools and FD armor will have 5 times less durability
