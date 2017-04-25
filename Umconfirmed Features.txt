@@ -18,3 +18,24 @@ Corrupted Ash, made by smelting Corrupted Sand.
 Ultra Essence.
 
 Dull Stone that turns into a Blood Stone by taking hearts away from the player.
+
+
+Lesser Essence, Essence and Greater Essence.
+
+Lesser Essence Ore, Essence Ore and Greater Essence Ore. 
+
+Tools made with Lesser Essence.
+
+Need Diamond Pickaxe to mine Lesser Essence Ore.
+
+Need Lesser Essence Pickaxe to mine Essence Ore.
+
+Tools and Armor made with Essence. 
+
+Need Essence Pickaxe to mine Greater Essence Ore.
+
+Tools and Armor made with Greater Essence.
+
+Seed Catalyst made with 1 Essence, 4 Coal Fragments, 4 Dirt.
+
+Seeds for all 3 tiers, need 1 Seed, 4 Essence and 4 Seed Catalyst.
