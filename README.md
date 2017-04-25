@@ -10,7 +10,7 @@ Things That Have Been Added:
 Fake Diamond, Fake Diamond Sword, Fake Diamond Shovel, Fake Diamond Pickaxe, Fake Diamond Axe, Fake Diamond Hoe and
 Fake Diamond Block
 
-Fake diamond tools has 15 times less durability than diamond tools and FD armor has 5 times less durability
+Fake diamond tools have 15 times less durability than diamond tools and FD armor has 5 times less durability
 than diamond armor.
 
 Fake diamonds will drop from skeletons and creepers to begin with. 
