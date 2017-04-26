@@ -1,6 +1,8 @@
 Confirmed Features:
 -------------------
 
+Fake Diamond Armor
+
 Cobblestone Element - will place cobblestone when right clicked, might have durability.
 
 Water Element - will place water when right clicked, might have durability. 
