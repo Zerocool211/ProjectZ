@@ -8,4 +8,4 @@ The mod will be closed source to begin with, it will be open source soon.
 Things that have been added are listed in Implemented Features.
 
 Licence:
-http://creativecommo...s/by-nc-nd/3.0/
+https://creativecommons.org/licenses/by-nc-nd/4.0/
