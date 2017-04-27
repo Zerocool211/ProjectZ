@@ -9,8 +9,4 @@ Things that have been added are listed in Implemented Features.
 
 The textures for fake diamond stuff will be modified.
 
-All images, text and other content in this repository is licensed under the 
-Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
-
-License:
-https://creativecommons.org/licenses/by-nc-nd/4.0/
+This mod is licensed under the MIT license. All assets are public domain, unless otherwise stated; all are free to be distributed as long as the license / source credits are kept. This means you can use this mod in any mod pack as you please.
