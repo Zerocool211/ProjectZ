@@ -9,4 +9,4 @@ Things that have been added are listed in Implemented Features.
 
 The textures for fake diamond stuff will be modified.
 
-This mod is licensed under the MIT license. All assets are public domain, unless otherwise stated; all are free to be distributed as long as the license / source credits are kept. This means you can use this mod in any mod pack as you please.
+This mod is licensed under the MIT license. All assets are public domain, unless otherwise stated. All are free to be distributed as long as the license/source credits are kept. This means you can use this mod in any mod pack as you please.
