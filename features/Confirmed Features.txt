@@ -3,8 +3,10 @@ Confirmed Features:
 
 Fake Diamond Armor
 
-Cobblestone Element - will place cobblestone when right clicked, might have durability.
+Base Element - will be used to craft the water and lava elements.
 
 Water Element - will place water when right clicked, might have durability. 
 
 Lava Element - will place lava when right clicked, might have durability.
+
+Cobblestone Element - will place cobblestone when right clicked, might have durability.
