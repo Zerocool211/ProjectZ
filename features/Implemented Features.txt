@@ -13,3 +13,5 @@ Fake diamond tools have 15 times less durability than diamond tools and FD armor
 than diamond armor. The durability is the only diffrence between fake diamond and diamond stuff.
 
 Fake diamonds drop from skeletons and creepers to begin with.
+50% drop chance for skeletons and 70% drop chance for creepers.
+skeletons drop 1 and creepers 1-2.
