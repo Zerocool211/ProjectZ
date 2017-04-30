@@ -5,6 +5,12 @@ Coated obsidian blocks, look like normal blocks but are as strong as obsidian, c
 
 Painter's that can paint bedrock and make it look like a regular block.
 
+Some way to craft mob heads.
+
+A way to reverse craft some items, like wool into 4 string.
+
+A item that can change between day and night.
+
 Omni Aspect.(not sure about name yet, maybe i will change name to Omni Essence)
 
 Omni Planks and Omni Sticks.
