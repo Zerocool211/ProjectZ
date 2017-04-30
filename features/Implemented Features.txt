@@ -8,6 +8,10 @@ Fake Diamond Pickaxe
 Fake Diamond Axe
 Fake Diamond Hoe
 Fake Diamond Block
+Fake Diamond Helmet
+Fake Diamond Chestplate
+Fake Diamond Leggings
+Fake Diamond Boots
 
 Fake diamond tools have 15 times less durability than diamond tools and FD armor has circa 5 times less durability
 than diamond armor. The durability is the only diffrence between fake diamond and diamond stuff.

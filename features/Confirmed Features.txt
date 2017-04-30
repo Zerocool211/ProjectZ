@@ -1,8 +1,6 @@
 Confirmed Features:
 -------------------
 
-Fake Diamond Armor
-
 Base Element - will be used to craft the water and lava elements.
 
 Water Element - will place water when right clicked, might have durability. 
