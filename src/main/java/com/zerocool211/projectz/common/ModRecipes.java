@@ -51,5 +51,5 @@ public class ModRecipes
         GameRegistry.addRecipe(output, "M M", "M M", "   ", 'M', material);
         GameRegistry.addRecipe(output, "   ", "M M", "M M", 'M', material);
     }
-    
+
 }
