@@ -22,7 +22,13 @@ public class ModArmor extends ItemArmor implements ItemModelProvider {
 
     public boolean getIsRepairable(ItemStack par1ItemStack, ItemStack par2ItemStack)
     {
-        return ModItems.fakeDiamond == par2ItemStack.getItem() ? true : super.getIsRepairable(par1ItemStack, par2ItemStack);
+        Item repairItem;
+        repairItem = new Item();
+        if(this.getArmorMaterial() == ProjectZ.FAKE_DIAMOND)
+        {
+            repairItem = ModItems.fakeDiamond;
+        }
+        return repairItem == par2ItemStack.getItem() ? true : super.getIsRepairable(par1ItemStack, par2ItemStack);
     }
 
     @Override
