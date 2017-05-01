@@ -20,7 +20,7 @@ public class ModPickaxe extends ItemPickaxe
     {
         Item repairItem;
         repairItem = new Item();
-        if(this == ModItems.fakeDiamondPickaxe)
+        if(this.getToolMaterial() == ProjectZ.FAKEDIAMOND)
         {
             repairItem = ModItems.fakeDiamond;
         }

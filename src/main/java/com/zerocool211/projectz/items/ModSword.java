@@ -20,7 +20,7 @@ public class ModSword extends ItemSword
     {
         Item repairItem;
         repairItem = new Item();
-        if(this == ModItems.fakeDiamondSword)
+        if(this.getToolMaterialName() == ProjectZ.FAKEDIAMOND.name())
         {
             repairItem = ModItems.fakeDiamond;
         }

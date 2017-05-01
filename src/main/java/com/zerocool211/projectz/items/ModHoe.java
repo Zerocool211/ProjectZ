@@ -20,7 +20,7 @@ public class ModHoe extends ItemHoe
     {
         Item repairItem;
         repairItem = new Item();
-        if(this == ModItems.fakeDiamondHoe)
+        if(this.getMaterialName() == ProjectZ.FAKEDIAMOND.name())
         {
             repairItem = ModItems.fakeDiamond;
         }

@@ -20,7 +20,7 @@ public class ModShovel extends ItemSpade
     {
         Item repairItem;
         repairItem = new Item();
-        if(this == ModItems.fakeDiamondShovel)
+        if(this.getToolMaterial() == ProjectZ.FAKEDIAMOND)
         {
             repairItem = ModItems.fakeDiamond;
         }

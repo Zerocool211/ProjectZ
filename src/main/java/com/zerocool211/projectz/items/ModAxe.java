@@ -20,7 +20,7 @@ public class ModAxe extends ItemAxe
     {
         Item repairItem;
         repairItem = new Item();
-        if(this == ModItems.fakeDiamondAxe)
+        if(this.getToolMaterial() == ProjectZ.FAKEDIAMOND)
         {
             repairItem = ModItems.fakeDiamond;
         }
