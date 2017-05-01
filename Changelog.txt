@@ -2,3 +2,4 @@
 1. Changed to a 3 digit version number.
 2. Updated mcmod.info file.
 3. Added the repair material for fake diamond tools and armor, they can now be repaired in a anvil.
+4. Changed Repair methods to be more versatile.
