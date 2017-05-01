@@ -4,7 +4,8 @@ import com.zerocool211.projectz.common.ModBlocks;
 import com.zerocool211.projectz.common.ModItems;
 import com.zerocool211.projectz.common.ModCT;
 import com.zerocool211.projectz.common.ModRecipes;
-import com.zerocool211.projectz.events.DropHandler;
+import com.zerocool211.projectz.events.ModDropHandler;
+import com.zerocool211.projectz.events.ModEventHandler;
 import com.zerocool211.projectz.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
@@ -18,7 +19,6 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-
 
 @Mod(modid = ProjectZ.MODID, version = ProjectZ.VERSION, name = ProjectZ.NAME)
 public class ProjectZ
@@ -53,7 +53,8 @@ public class ProjectZ
     public void init(FMLInitializationEvent event)
     {
         proxy.init(event);
-        MinecraftForge.EVENT_BUS.register(new DropHandler());
+        MinecraftForge.EVENT_BUS.register(new ModDropHandler());
+        MinecraftForge.EVENT_BUS.register(new ModEventHandler());
     }
 
     @EventHandler
