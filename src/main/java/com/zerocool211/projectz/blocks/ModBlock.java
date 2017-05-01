@@ -9,23 +9,14 @@ import net.minecraft.block.material.Material;
 public class ModBlock extends Block
 {
 
-    public ModBlock(Material materialIn, String name)
+    public ModBlock(Material materialIn, SoundType soundType, String name)
     {
         super(materialIn);
         this.setUnlocalizedName(name);
         this.setCreativeTab(ProjectZ.tabProjectZ);
         this.setHardness(5.0F);
         this.setResistance(10.0F);
-
-        setSound();
-    }
-
-    public void setSound()
-    {
-        if(this == ModBlocks.fakeDiamondBlock)
-        {
-            this.setSoundType(SoundType.METAL);
-        }
+        this.setSoundType(soundType);
     }
 
 }

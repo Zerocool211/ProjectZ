@@ -4,6 +4,7 @@ import com.zerocool211.projectz.ProjectZ;
 
 import com.zerocool211.projectz.blocks.ModBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -19,7 +20,7 @@ public class ModBlocks
 
     public static void preInit()
     {
-        fakeDiamondBlock = new ModBlock(Material.IRON, "fake_diamond_block");
+        fakeDiamondBlock = new ModBlock(Material.IRON, SoundType.METAL, "fake_diamond_block");
 
         registerBlocks();
     }
