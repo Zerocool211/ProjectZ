@@ -20,7 +20,7 @@ public class ModBlocks
 
     public static void preInit()
     {
-        fakeDiamondBlock = new ModBlock(Material.IRON, SoundType.METAL, "fake_diamond_block");
+        fakeDiamondBlock = new ModBlock(Material.IRON, SoundType.METAL, 5.0F, 10.0F, "fake_diamond_block"); //First float is hardness, second is resistance.
 
         registerBlocks();
     }

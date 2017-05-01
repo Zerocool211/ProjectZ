@@ -9,13 +9,13 @@ import net.minecraft.block.material.Material;
 public class ModBlock extends Block
 {
 
-    public ModBlock(Material materialIn, SoundType soundType, String name)
+    public ModBlock(Material materialIn, SoundType soundType, Float hardness, Float resistance, String name)
     {
         super(materialIn);
         this.setUnlocalizedName(name);
         this.setCreativeTab(ProjectZ.tabProjectZ);
-        this.setHardness(5.0F);
-        this.setResistance(10.0F);
+        this.setHardness(hardness);
+        this.setResistance(resistance);
         this.setSoundType(soundType);
     }
 
