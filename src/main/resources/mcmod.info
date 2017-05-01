@@ -1,0 +1,16 @@
+[
+{
+  "modid": "projectz",
+  "name": "ProjectZ",
+  "description": "A Mod That Adds Fake Diamonds, A Fake Diamond Block, Fake Diamond Tools and Fake Diamond Armor. More Stuff Will Be Added Soon.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Zerocool211"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

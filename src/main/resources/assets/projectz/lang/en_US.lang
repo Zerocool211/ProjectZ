@@ -1,0 +1,19 @@
+#English US lang file
+
+#Creative Tab
+itemGroup.tab_projectz=ProjectZ
+
+#Items
+item.fake_diamond.name=Fake Diamond
+item.fake_diamond_sword.name=Fake Diamond Sword
+item.fake_diamond_shovel.name=Fake Diamond Shovel
+item.fake_diamond_pickaxe.name=Fake Diamond Pickaxe
+item.fake_diamond_axe.name=Fake Diamond Axe
+item.fake_diamond_hoe.name=Fake Diamond Hoe
+item.fake_diamond_helmet.name=Fake Diamond Helmet
+item.fake_diamond_chestplate.name=Fake Diamond Chestplate
+item.fake_diamond_leggings.name=Fake Diamond Leggings
+item.fake_diamond_boots.name=Fake Diamond Boots
+
+#Blocks
+tile.fake_diamond_block.name=Fake Diamond Block
