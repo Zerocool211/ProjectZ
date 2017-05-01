@@ -2,7 +2,7 @@ package com.zerocool211.projectz.common;
 
 import com.zerocool211.projectz.ProjectZ;
 
-import com.zerocool211.projectz.blocks.FakeDiamondBlock;
+import com.zerocool211.projectz.blocks.ModBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
@@ -19,7 +19,7 @@ public class ModBlocks
 
     public static void preInit()
     {
-        fakeDiamondBlock = new FakeDiamondBlock(Material.IRON, "fake_diamond_block");
+        fakeDiamondBlock = new ModBlock(Material.IRON, "fake_diamond_block");
 
         registerBlocks();
     }
