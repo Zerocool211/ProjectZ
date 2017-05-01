@@ -1,4 +1,4 @@
-package com.zerocool211.projectz.events;
+package com.zerocool211.projectz.event;
 
 import java.util.Random;
 import com.zerocool211.projectz.common.ModItems;
