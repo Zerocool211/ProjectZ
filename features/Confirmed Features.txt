@@ -1,10 +1,12 @@
 Confirmed Features:
 -------------------
 
-Base Element - will be used to craft the water and lava elements.
+Base Tablet - will be used to craft the water and lava elements.
 
-Water Element - will place water when right clicked, might have durability. 
+Water Tablet - will place water when right clicked, might have durability. 
 
-Lava Element - will place lava when right clicked, might have durability.
+Lava Tablet - will place lava when right clicked, might have durability.
 
-Cobblestone Element - will place cobblestone when right clicked, might have durability.
+Cobblestone Tablet - will place cobblestone when right clicked, might have durability.
+
+Reversing Tablet - will be used to reverse craft items, but not using a crafting table, might have durability. 
