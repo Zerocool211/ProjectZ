@@ -1,5 +1,13 @@
 package com.zerocool211.projectz.event;
 
+import com.zerocool211.projectz.common.ModItems;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.inventory.IInventory;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
@@ -48,17 +56,26 @@ public class ModEventHandler
     @SubscribeEvent
     public void itemPickup(PlayerEvent.ItemPickupEvent event)
     {
-        //if(event.pickedUp.getEntityItem().getItem() == Items.DIAMOND)
-        //{
-            //event.player.inventory.clearMatchingItems(Items.DIAMOND, 0, 1, null);
-            //event.player.inventory.addItemStackToInventory(new ItemStack(Items.COAL, 1));
-            //event.player.removeExperienceLevel(1);
-            //event.player.inventory.damageArmor(15.0F);
-            //event.player.addChatComponentMessage(new TextComponentString("Diamonds!"));
-            //event.player.setFire(5);
-            //event.player.inventory.clear();
-            //event.player.inventory.addItemStackToInventory(new ItemStack(Items.IRON_INGOT));
-        //}
+        InventoryPlayer inventory = event.player.inventory;
+        if (inventory.hasItemStack(new ItemStack(ModItems.baseTablet)))
+        {
+            //removeItem(event.player, new ItemStack(Blocks.COBBLESTONE));
+        }
+    }
+
+    public void removeItem(EntityPlayer ep, ItemStack removeitem) {
+        IInventory inv = ep.inventory;
+        for(int i=0; i < inv.getSizeInventory(); i++)
+        {
+            if(inv.getStackInSlot(i) != null)
+            {
+                ItemStack j = inv.getStackInSlot(i);
+                if(j.getItem() != null && j.getItem() == removeitem.getItem())
+                {
+                    inv.setInventorySlotContents(i, null);
+                }
+            }
+        }
     }
 
     @SubscribeEvent
