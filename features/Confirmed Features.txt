@@ -1,6 +1,14 @@
 Confirmed Features:
 -------------------
 
+Blank Destruction Tablet - will be used to make the destruction tablets.
+
+Destruction Tablet Cobblestone - will destroy all cobblestone picked up.
+
+Destruction Tablet Dirt - will destroy all dirt picked up.
+
+Destruction Tablet Gravel - will destroy all gravel picked up.
+
 Water Tablet - will place water when right clicked, might have durability. 
 
 Lava Tablet - will place lava when right clicked, might have durability.
@@ -13,10 +21,3 @@ Day Tablet - will be used to switch to the begining of the day, might have durab
 
 Night Tablet - will be used to switch to the begining of the night, might have durability.
 
-Blank Destruction Tablet - will be used to make the destruction tablets.
-
-Destruction Tablet Cobblestone - will destroy all cobblestone picked up.
-
-Destruction Tablet Dirt - will destroy all dirt picked up.
-
-Destruction Tablet Gravel - will destroy all gravel picked up.
