@@ -35,10 +35,13 @@ public class ModEventHandler
     @SubscribeEvent
     public void itemPickup(PlayerEvent.ItemPickupEvent event)
     {
-        InventoryPlayer inventory = event.player.inventory;
-        if (inventory.hasItemStack(new ItemStack(ModItems.baseTablet)))
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.COBBLESTONE)))
         {
-            //removeItem(event.player, new ItemStack(Blocks.COBBLESTONE));
+            InventoryPlayer inventory = event.player.inventory;
+            if (inventory.hasItemStack(new ItemStack(ModItems.baseTablet)))
+            {
+                //removeItem(event.player, new ItemStack(Blocks.COBBLESTONE));
+            }
         }
     }
 
