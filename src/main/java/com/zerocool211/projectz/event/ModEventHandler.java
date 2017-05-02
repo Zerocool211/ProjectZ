@@ -20,39 +20,18 @@ import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 public class ModEventHandler
 {
 
-    //Commented Code Is For Testing Purposes Only.
-
     @SubscribeEvent
     public void entityJoinWorld(EntityJoinWorldEvent event)
     {
-        //if(event.getEntity() instanceof EntityPlayer)
-        //{
-            //EntityPlayer player = (EntityPlayer) event.getEntity();
-            //player.inventory.addItemStackToInventory(new ItemStack(Items.NETHER_STAR, 1));
-            //if(event.getWorld().isRemote)
-            //{
-                //player.addChatComponentMessage(new TextComponentString("Welcome To This World..."));
-            //}
-        //}
+        //todo
     }
 
     @SubscribeEvent
     public void livingHurt(LivingHurtEvent event)
     {
-        //if(event.getSource().getEntity() instanceof EntityPlayer)
-        //{
-            //EntityPlayer player = (EntityPlayer) event.getSource().getEntity();
-            //if(player.getHeldItemMainhand() != null)
-            //{
-                //if(player.getHeldItemMainhand().getItem() == ModItems.fakeDiamond)
-                //{
-                    //event.setAmount(10);
-                    //event.getEntity().setFire(10);
-                //}
-            //}
-        //}
+        //todo
     }
-
+    
     @SubscribeEvent
     public void itemPickup(PlayerEvent.ItemPickupEvent event)
     {
@@ -63,7 +42,8 @@ public class ModEventHandler
         }
     }
 
-    public void removeItem(EntityPlayer ep, ItemStack removeitem) {
+    public void removeItem(EntityPlayer ep, ItemStack removeitem)
+    {
         IInventory inv = ep.inventory;
         for(int i=0; i < inv.getSizeInventory(); i++)
         {
@@ -81,48 +61,25 @@ public class ModEventHandler
     @SubscribeEvent
     public void livingUpdate(LivingEvent.LivingUpdateEvent event)
     {
-        //if(event.getEntity() instanceof EntityPlayer)
-        //{
-            //EntityPlayer player = (EntityPlayer) event.getEntity();
-            //if(player.getHeldItemMainhand() != null)
-            //{
-                //if(player.getHeldItemMainhand().getItem() == Items.APPLE)
-                //{
-                    //player.setFire(1);
-                    //player.addExperienceLevel(1);
-                //}
-            //}
-
-        //}
+        //todo
     }
 
     @SubscribeEvent
     public void itemTooltip(ItemTooltipEvent event)
     {
-        //if(event.getItemStack().getItem() == Items.DIAMOND)
-        //{
-            //event.getToolTip().add("Real Deal");
-        //}
+        //todo
     }
 
     @SubscribeEvent
     public void blockBreak(BlockEvent.BreakEvent event)
     {
-        //event.setExpToDrop(10);
-        //if(event.getState().getBlock() == Blocks.DIRT)
-        //{
-            //event.setExpToDrop(10);
-            //BlockPos pos = event.getPos();
-            //event.getPlayer().setGameType(GameType.CREATIVE);
-            //event.getWorld().spawnEntityInWorld(new EntityZombie(event.getWorld())); //Does Not Work
-            //event.getWorld().spawnEntityInWorld(new EntityItem(event.getWorld(), pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.NETHER_STAR)));
-        //}
+        //todo
     }
 
     @SubscribeEvent
     public void onPlayerPickupXP(PlayerPickupXpEvent event)
     {
-        //event.getOrb().xpValue *= 2;
+        //todo
     }
 
 }
