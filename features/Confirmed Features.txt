@@ -1,7 +1,7 @@
 Confirmed Features:
 -------------------
 
-Base Tablet - will be used to craft the water and lava elements.
+Base Tablet - will be used to craft the other tablets.
 
 Water Tablet - will place water when right clicked, might have durability. 
 
