@@ -31,7 +31,7 @@ public class ModEventHandler
     {
         //todo
     }
-    
+
     @SubscribeEvent
     public void itemPickup(PlayerEvent.ItemPickupEvent event)
     {
