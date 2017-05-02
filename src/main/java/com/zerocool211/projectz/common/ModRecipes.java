@@ -1,5 +1,6 @@
 package com.zerocool211.projectz.common;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -26,6 +27,9 @@ public class ModRecipes
         GameRegistry.addRecipe(new ItemStack(ModItems.fakeDiamondChestplate, 1), "D D", "DDD", "DDD", 'D', ModItems.fakeDiamond);
         GameRegistry.addRecipe(new ItemStack(ModItems.fakeDiamondLeggings, 1), "DDD", "D D", "D D", 'D', ModItems.fakeDiamond);
         addBootsRecipe(new ItemStack(ModItems.fakeDiamondBoots, 1), ModItems.fakeDiamond);
+
+        //Tablet Recipes
+        GameRegistry.addRecipe(new ItemStack(ModItems.baseTablet, 1), "SIS", "ISI", "SIS", 'S', new ItemStack(Blocks.STONE, 1, 0), 'I', new ItemStack(Items.DYE, 1, 0));
     }
 
     public static void addAxeRecipe(ItemStack output, Item material, Item shaft)
