@@ -2,6 +2,7 @@
 {
   "modid": "projectz",
   "name": "ProjectZ",
+  "description": "A Mod That Adds Fake Diamonds, A Fake Diamond Block, Fake Diamond Tools and Fake Diamond Armor. Also Adds Tablets That Do Cool Stuff.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
