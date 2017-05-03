@@ -15,7 +15,7 @@ public class ModCT extends CreativeTabs
     @Override
     public Item getTabIconItem()
     {
-        return Items.APPLE;
+        return ModItems.blankTablet;
     }
 
 }
