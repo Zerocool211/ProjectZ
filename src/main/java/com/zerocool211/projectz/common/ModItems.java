@@ -26,6 +26,16 @@ public class ModItems
     public static ItemArmor fakeDiamondBoots;
     public static Item blankTablet;
     public static Item destructionTablet;
+    public static Item waterTablet;
+    public static Item lavaTablet;
+    public static Item cobblestoneTablet;
+    public static Item dirtTablet;
+    public static Item gravelTablet;
+    public static Item reversingTablet;
+    public static Item dayTablet;
+    public static Item nightTablet;
+    public static Item growthTablet;
+    public static Item flightTablet;
 
     public static void preInit()
     {
@@ -42,6 +52,17 @@ public class ModItems
         blankTablet = new ModItem("blank_tablet");
         destructionTablet = new ModItem("destruction_tablet");
 
+        waterTablet = new WaterTablet("water_tablet"); //
+        lavaTablet = new LavaTablet("lava_tablet");
+        cobblestoneTablet = new CobblestoneTablet("cobblestone_tablet");
+        dirtTablet = new DirtTablet("dirt_tablet");
+        gravelTablet = new GravelTablet("gravel_tablet");
+        reversingTablet = new ModItem("reversing_tablet");
+        dayTablet = new DayTablet("day_tablet");
+        nightTablet = new NightTablet("night_tablet");
+        growthTablet = new GrowthTablet("growth_tablet");
+        flightTablet = new ModItem("flight_tablet"); //
+
         registerItems();
     }
 
@@ -55,6 +76,16 @@ public class ModItems
         register(fakeDiamondHoe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_hoe"));
         register(blankTablet, new ResourceLocation(ProjectZ.MODID, "blank_tablet"));
         register(destructionTablet, new ResourceLocation(ProjectZ.MODID, "destruction_tablet"));
+        register(waterTablet, new ResourceLocation(ProjectZ.MODID, "water_tablet"));
+        register(lavaTablet, new ResourceLocation(ProjectZ.MODID, "lava_tablet"));
+        register(cobblestoneTablet, new ResourceLocation(ProjectZ.MODID, "cobblestone_tablet"));
+        register(dirtTablet, new ResourceLocation(ProjectZ.MODID, "dirt_tablet"));
+        register(gravelTablet, new ResourceLocation(ProjectZ.MODID, "gravel_tablet"));
+        register(reversingTablet, new ResourceLocation(ProjectZ.MODID, "reversing_tablet"));
+        register(dayTablet, new ResourceLocation(ProjectZ.MODID, "day_tablet"));
+        register(nightTablet, new ResourceLocation(ProjectZ.MODID, "night_tablet"));
+        register(growthTablet, new ResourceLocation(ProjectZ.MODID, "growth_tablet"));
+        register(flightTablet, new ResourceLocation(ProjectZ.MODID, "flight_tablet"));
     }
 
     public static void registerRenders()
@@ -71,6 +102,16 @@ public class ModItems
         registerRender(fakeDiamondBoots);
         registerRender(blankTablet);
         registerRender(destructionTablet);
+        registerRender(waterTablet);
+        registerRender(lavaTablet);
+        registerRender(cobblestoneTablet);
+        registerRender(dirtTablet);
+        registerRender(gravelTablet);
+        registerRender(reversingTablet);
+        registerRender(dayTablet);
+        registerRender(nightTablet);
+        registerRender(growthTablet);
+        registerRender(flightTablet);
     }
 
     public static void registerRender(Item item)

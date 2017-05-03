@@ -16,6 +16,16 @@ item.fake_diamond_leggings.name=Fake Diamond Leggings
 item.fake_diamond_boots.name=Fake Diamond Boots
 item.blank_tablet.name=Blank Tablet
 item.destruction_tablet.name=Destruction Tablet
+item.water_tablet.name=Water Tablet
+item.lava_tablet.name=Lava Tablet
+item.cobblestone_tablet.name=Cobblestone Tablet
+item.dirt_tablet.name=Dirt Tablet
+item.gravel_tablet.name=Gravel Tablet
+item.reversing_tablet.name=Reversing Tablet
+item.day_tablet.name=Day Tablet
+item.night_tablet.name=Night Tablet
+item.growth_tablet.name=Growth Tablet
+item.flight_tablet.name=Flight Tablet
 
 #Blocks
 tile.fake_diamond_block.name=Fake Diamond Block
