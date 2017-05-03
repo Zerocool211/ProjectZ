@@ -20,4 +20,6 @@ Fake diamonds drop from skeletons and creepers to begin with.
 50% drop chance for skeletons and 70% drop chance for creepers.
 skeletons and creepers drop 1 fake diamond and have a 25% chance to drop 2.
 
-Base Tablet - will be used to craft the other tablets.
+Blank Tablet - will be used to craft the other tablets.
+Destruction Tablet - will destroy picked up items, specified by tokens.
+

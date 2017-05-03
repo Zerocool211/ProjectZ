@@ -1,8 +1,6 @@
 Confirmed Features:
 -------------------
 
-Destruction Tablet - will destroy certain picked up items.
-
 Cobblestone Token - will make the destruction tablet destroy cobblestone.
 
 Stone Token - will make the destruction tablet destroy stone.
