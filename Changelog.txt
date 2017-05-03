@@ -4,4 +4,4 @@
 3. Added the repair material for fake diamond tools and armor, they can now be repaired in a anvil.
 4. Changed Repair methods to be more versatile.
 5. Changed It So normal blocks can use the same class.
-6. Added the Base Tablet and it's recipe. 
+6. Added the Blank Tablet and it's recipe. 
