@@ -25,6 +25,7 @@ public class ModItems
     public static ItemArmor fakeDiamondLeggings;
     public static ItemArmor fakeDiamondBoots;
     public static Item blankTablet;
+    public static Item destructionTablet;
 
     public static void preInit()
     {
@@ -39,6 +40,7 @@ public class ModItems
         fakeDiamondLeggings = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.LEGS, "fake_diamond_leggings"));
         fakeDiamondBoots = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.FEET, "fake_diamond_boots"));
         blankTablet = new ModItem("blank_tablet");
+        destructionTablet = new ModItem("destruction_tablet");
 
         registerItems();
     }
@@ -52,6 +54,7 @@ public class ModItems
         register(fakeDiamondAxe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_axe"));
         register(fakeDiamondHoe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_hoe"));
         register(blankTablet, new ResourceLocation(ProjectZ.MODID, "blank_tablet"));
+        register(destructionTablet, new ResourceLocation(ProjectZ.MODID, "destruction_tablet"));
     }
 
     public static void registerRenders()
@@ -67,6 +70,7 @@ public class ModItems
         registerRender(fakeDiamondLeggings);
         registerRender(fakeDiamondBoots);
         registerRender(blankTablet);
+        registerRender(destructionTablet);
     }
 
     public static void registerRender(Item item)

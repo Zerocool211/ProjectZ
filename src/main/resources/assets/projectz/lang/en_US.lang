@@ -15,6 +15,7 @@ item.fake_diamond_chestplate.name=Fake Diamond Chestplate
 item.fake_diamond_leggings.name=Fake Diamond Leggings
 item.fake_diamond_boots.name=Fake Diamond Boots
 item.blank_tablet.name=Blank Tablet
+item.destruction_tablet.name=Destruction Tablet
 
 #Blocks
 tile.fake_diamond_block.name=Fake Diamond Block
