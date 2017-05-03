@@ -25,3 +25,4 @@ Day Tablet - will be used to switch to the begining of the day, might have durab
 
 Night Tablet - will be used to switch to the begining of the night, might have durability.
 
+Growth Tablet - will cause plants right on to grow faster, somewhat like bonemeal.
