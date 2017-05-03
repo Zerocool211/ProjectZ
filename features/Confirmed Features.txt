@@ -13,16 +13,18 @@ More tokens will be added soon.
 
 Essence - will be dropped by zombies and spiders, will be used as fuel for the tablets.
 
-Water Tablet - will place water when right clicked, might have durability. 
+Water Tablet - will place water when right clicked.
 
-Lava Tablet - will place lava when right clicked, might have durability.
+Lava Tablet - will place lava when right clicked.
 
-Cobblestone Tablet - will place cobblestone when right clicked, might have durability.
+Cobblestone Tablet - will place cobblestone when right clicked.
 
-Reversing Tablet - will be used to reverse craft items, but not using a crafting table, might have durability. 
+Dirt Tablet - - will place cobblestone when right clicked.
 
-Day Tablet - will be used to switch to the begining of the day, might have durability.
+Reversing Tablet - will be used to reverse craft items, but not using a crafting table. 
 
-Night Tablet - will be used to switch to the begining of the night, might have durability.
+Day Tablet - will be used to switch to the begining of the day.
+
+Night Tablet - will be used to switch to the begining of the night
 
 Growth Tablet - will cause plants right on to grow faster, somewhat like bonemeal.
