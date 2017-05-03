@@ -27,4 +27,6 @@ Day Tablet - will be used to switch to the begining of the day.
 
 Night Tablet - will be used to switch to the begining of the night
 
-Growth Tablet - will cause plants right on to grow faster, somewhat like bonemeal.
+Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal.
+
+Flight Tablet - will grant the player creative flight.
