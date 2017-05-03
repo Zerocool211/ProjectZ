@@ -5,3 +5,6 @@
 4. Changed Repair methods to be more versatile.
 5. Changed It So normal blocks can use the same class.
 6. Added the Blank Tablet and it's recipe. 
+7. Added Destruction Tablet and it's recipe.
+7. Added Water, Lava, Cobblestone, Dirt, Gravel, Reversing, Day, Night, Growth and Flight Tablets.
+8. Changed creative tab icon to Blank Tablet.
