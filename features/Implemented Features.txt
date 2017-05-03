@@ -23,3 +23,15 @@ skeletons and creepers drop 1 fake diamond and have a 25% chance to drop 2.
 Blank Tablet - will be used to craft the other tablets.
 Destruction Tablet - will destroy picked up items, specified by tokens.
 
+Water Tablet - will place water when right clicked. - partly implemented.
+Lava Tablet - will place lava when right clicked. - partly implemented.
+Cobblestone Tablet - will place cobblestone when right clicked. - partly implemented.
+Dirt Tablet - will place dirt when right clicked. - partly implemented.
+Gravel Tablet - will place gravel when right clicked. - partly implemented.
+Reversing Tablet - will be used to reverse craft items, but not using a crafting table. - partly implemented.
+Day Tablet - will be used to switch to the begining of the day. - partly implemented.
+Night Tablet - will be used to switch to the begining of the night. - partly implemented.
+Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal. - partly implemented.
+Flight Tablet - will grant the player creative flight. - partly implemented.
+
+
