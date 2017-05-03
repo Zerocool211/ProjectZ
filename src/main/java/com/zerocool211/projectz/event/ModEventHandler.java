@@ -38,7 +38,7 @@ public class ModEventHandler
         if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.COBBLESTONE)))
         {
             InventoryPlayer inventory = event.player.inventory;
-            if (inventory.hasItemStack(new ItemStack(ModItems.baseTablet)))
+            if (inventory.hasItemStack(new ItemStack(ModItems.blankTablet)))
             {
                 //removeItem(event.player, new ItemStack(Blocks.COBBLESTONE));
             }

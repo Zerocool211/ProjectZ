@@ -29,7 +29,7 @@ public class ModRecipes
         addBootsRecipe(new ItemStack(ModItems.fakeDiamondBoots, 1), ModItems.fakeDiamond);
 
         //Tablet Recipes
-        GameRegistry.addRecipe(new ItemStack(ModItems.baseTablet, 1), "SIS", "ISI", "SIS", 'S', new ItemStack(Blocks.STONE, 1, 0), 'I', new ItemStack(Items.DYE, 1, 0));
+        GameRegistry.addRecipe(new ItemStack(ModItems.blankTablet, 1), "SIS", "ISI", "SIS", 'S', new ItemStack(Blocks.STONE, 1, 0), 'I', new ItemStack(Items.DYE, 1, 0));
     }
 
     public static void addAxeRecipe(ItemStack output, Item material, Item shaft)

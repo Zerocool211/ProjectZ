@@ -24,7 +24,7 @@ public class ModItems
     public static ItemArmor fakeDiamondChestplate;
     public static ItemArmor fakeDiamondLeggings;
     public static ItemArmor fakeDiamondBoots;
-    public static Item baseTablet;
+    public static Item blankTablet;
 
     public static void preInit()
     {
@@ -38,7 +38,7 @@ public class ModItems
         fakeDiamondChestplate = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.CHEST, "fake_diamond_chestplate"));
         fakeDiamondLeggings = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.LEGS, "fake_diamond_leggings"));
         fakeDiamondBoots = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.FEET, "fake_diamond_boots"));
-        baseTablet = new ModItem("base_tablet");
+        blankTablet = new ModItem("blank_tablet");
 
         registerItems();
     }
@@ -51,7 +51,7 @@ public class ModItems
         register(fakeDiamondPickaxe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_pickaxe"));
         register(fakeDiamondAxe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_axe"));
         register(fakeDiamondHoe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_hoe"));
-        register(baseTablet, new ResourceLocation(ProjectZ.MODID, "base_tablet"));
+        register(blankTablet, new ResourceLocation(ProjectZ.MODID, "base_tablet"));
     }
 
     public static void registerRenders()
@@ -66,7 +66,7 @@ public class ModItems
         registerRender(fakeDiamondChestplate);
         registerRender(fakeDiamondLeggings);
         registerRender(fakeDiamondBoots);
-        registerRender(baseTablet);
+        registerRender(blankTablet);
     }
 
     public static void registerRender(Item item)
