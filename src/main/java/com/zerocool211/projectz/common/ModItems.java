@@ -51,7 +51,7 @@ public class ModItems
         register(fakeDiamondPickaxe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_pickaxe"));
         register(fakeDiamondAxe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_axe"));
         register(fakeDiamondHoe, new ResourceLocation(ProjectZ.MODID, "fake_diamond_hoe"));
-        register(blankTablet, new ResourceLocation(ProjectZ.MODID, "base_tablet"));
+        register(blankTablet, new ResourceLocation(ProjectZ.MODID, "blank_tablet"));
     }
 
     public static void registerRenders()
