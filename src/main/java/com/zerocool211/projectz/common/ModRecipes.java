@@ -30,6 +30,7 @@ public class ModRecipes
 
         //Tablet Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.blankTablet, 1), "SIS", "ISI", "SIS", 'S', new ItemStack(Blocks.STONE, 1, 0), 'I', new ItemStack(Items.DYE, 1, 0));
+        GameRegistry.addRecipe(new ItemStack(ModItems.destructionTablet, 1), "SCS", "CTC", "DLD", 'S', Blocks.COBBLESTONE, 'D', Blocks.DIRT, 'C', Items.COAL, 'T', ModItems.blankTablet , 'L', Items.LAVA_BUCKET);
     }
 
     public static void addAxeRecipe(ItemStack output, Item material, Item shaft)
