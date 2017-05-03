@@ -1,13 +1,17 @@
 Confirmed Features:
 -------------------
 
-Blank Destruction Tablet - will be used to make the destruction tablets.
+Destruction Tablet - will destroy certain picked up items.
 
-Destruction Tablet Cobblestone - will destroy all cobblestone picked up.
+Cobblestone Token - will make the destruction tablet destroy cobblestone.
 
-Destruction Tablet Dirt - will destroy all dirt picked up.
+Stone Token - will make the destruction tablet destroy stone.
 
-Destruction Tablet Gravel - will destroy all gravel picked up.
+Dirt Token - will make the destruction tablet destroy dirt.
+
+Gravel Token - will make the destruction tablet destroy gravel.
+
+More tokens will be added soon.
 
 Water Tablet - will place water when right clicked, might have durability. 
 
