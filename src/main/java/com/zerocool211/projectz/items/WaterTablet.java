@@ -1,10 +1,13 @@
 package com.zerocool211.projectz.items;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class WaterTablet  extends ModItem
@@ -16,10 +19,14 @@ public class WaterTablet  extends ModItem
     }
 
     @Override
-    public ActionResult<ItemStack> onItemRightClick(ItemStack stack, World world, EntityPlayer playerIn, EnumHand hand)
+    public EnumActionResult onItemUse(ItemStack stack, EntityPlayer player, World world, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
     {
-        //stuff
-        return new ActionResult<>(EnumActionResult.SUCCESS, stack);
+        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)))
+        {
+            world.setBlockState(pos.up(), Blocks.FLOWING_WATER.getDefaultState());
+            return EnumActionResult.SUCCESS;
+        }
+        return EnumActionResult.PASS;
     }
 
 }
