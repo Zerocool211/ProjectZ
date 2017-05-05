@@ -43,7 +43,7 @@ public class GravelTablet extends ModItem
             if(player.canPlayerEdit(pos, facing, stack) && world.canBlockBePlaced(block, pos, false, facing, (Entity)null, stack))
             {
                 world.setBlockState(pos, Blocks.GRAVEL.getDefaultState());
-                player.playSound(SoundEvents.BLOCK_GRAVEL_PLACE, 1.0F, 3.0F);
+                player.playSound(SoundEvents.BLOCK_GRAVEL_PLACE, 1.0F, 0.8F);
                 return EnumActionResult.SUCCESS;
             }
         }
