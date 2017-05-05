@@ -43,7 +43,7 @@ public class CobblestoneTablet extends ModItem
 
             if(player.canPlayerEdit(pos, facing, stack) && world.canBlockBePlaced(block, pos, false, facing, (Entity)null, stack))
             {
-                IBlockState iblockstate1 = block.getStateForPlacement(world, pos, facing, hitX, hitY, hitZ, 0, player, stack);
+                IBlockState iblockstate1;
                 iblockstate1 = world.getBlockState(pos);
 
                 world.setBlockState(pos, Blocks.COBBLESTONE.getDefaultState());
