@@ -8,6 +8,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
@@ -41,14 +42,10 @@ public class WaterTablet  extends ModItem
                 pos = pos.offset(facing);
             }
 
-            if(player.canPlayerEdit(pos, facing, stack) && world.canBlockBePlaced(block, pos, false, facing, (Entity)null, stack))
+            if(player.canPlayerEdit(pos, facing, stack))
             {
-                IBlockState iblockstate1;
-                iblockstate1 = world.getBlockState(pos);
-
                 world.setBlockState(pos, Blocks.FLOWING_WATER.getDefaultState());
-                SoundType soundtype = iblockstate1.getBlock().getSoundType(iblockstate1, world, pos, player);
-                world.playSound(player, pos, soundtype.getPlaceSound(), SoundCategory.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
+                player.playSound(SoundEvents.ITEM_BUCKET_EMPTY, 1.0F, 1.0F);
                 return EnumActionResult.SUCCESS;
             }
         }
