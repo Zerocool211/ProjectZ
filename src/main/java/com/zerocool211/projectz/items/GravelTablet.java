@@ -2,17 +2,16 @@ package com.zerocool211.projectz.items;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSnow;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
@@ -43,13 +42,8 @@ public class GravelTablet extends ModItem
 
             if(player.canPlayerEdit(pos, facing, stack) && world.canBlockBePlaced(block, pos, false, facing, (Entity)null, stack))
             {
-                IBlockState iblockstate1;
-                iblockstate1 = world.getBlockState(pos);
-
-                //Need To Find Out How To Make It Make A Gravel Placing Sound.
                 world.setBlockState(pos, Blocks.GRAVEL.getDefaultState());
-                SoundType soundtype = iblockstate1.getBlock().getSoundType(iblockstate1, world, pos, player);
-                world.playSound(player, pos, soundtype.getPlaceSound(), SoundCategory.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
+                player.playSound(SoundEvents.BLOCK_GRAVEL_PLACE, 1.0F, 3.0F);
                 return EnumActionResult.SUCCESS;
             }
         }
