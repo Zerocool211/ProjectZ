@@ -21,15 +21,15 @@ Fake diamonds drop from skeletons and creepers to begin with.
 skeletons and creepers drop 1 fake diamond and have a 25% chance to drop 2.
 
 Blank Tablet - will be used to craft the other tablets.
-Destruction Tablet - will destroy picked up items, specified by tokens.
+Destruction Tablet - will destroy picked up items, specified by tokens. - mostly implemented.
 
-Water Tablet - will place water when right clicked. - partly implemented.
-Lava Tablet - will place lava when right clicked. - partly implemented.
-Cobblestone Tablet - will place cobblestone when right clicked. - partly implemented.
-Dirt Tablet - will place dirt when right clicked. - partly implemented.
-Gravel Tablet - will place gravel when right clicked. - partly implemented.
+Water Tablet - will place water when right clicked. - mostly implemented.
+Lava Tablet - will place lava when right clicked. - mostly implemented.
+Cobblestone Tablet - will place cobblestone when right clicked. - mostly implemented.
+Dirt Tablet - will place dirt when right clicked. - mostly implemented.
+Gravel Tablet - will place gravel when right clicked. - mostly implemented.
 Reversing Tablet - will be used to reverse craft items, but not using a crafting table. - partly implemented.
-Time Tablet - will be used fast forward the time. - partly implemented.
+Time Tablet - will be used fast forward the time. - mostly implemented.
 Reverse Time Tablet - will be used to rewind the time. - partly implemented.
 Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal. - partly implemented.
 Flight Tablet - will grant the player creative flight. - partly implemented.
