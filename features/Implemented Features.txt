@@ -29,8 +29,8 @@ Cobblestone Tablet - will place cobblestone when right clicked. - partly impleme
 Dirt Tablet - will place dirt when right clicked. - partly implemented.
 Gravel Tablet - will place gravel when right clicked. - partly implemented.
 Reversing Tablet - will be used to reverse craft items, but not using a crafting table. - partly implemented.
-Day Tablet - will be used to switch to the begining of the day. - partly implemented.
-Night Tablet - will be used to switch to the begining of the night. - partly implemented.
+Time Tablet - will be used fast forward the time. - partly implemented.
+Reverse Time Tablet - will be used to rewind the time. - partly implemented.
 Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal. - partly implemented.
 Flight Tablet - will grant the player creative flight. - partly implemented.
 

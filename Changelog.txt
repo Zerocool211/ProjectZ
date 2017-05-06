@@ -10,3 +10,4 @@
 functionality as it is.
 8. Changed creative tab icon to Blank Tablet.
 9. Made it so Lava and Water Tablets place lava and water blocks as long as you have coal in your inventory. (placeholder)
+10. Renamed Day Tablet to Time Tablet and Night Tablet to Reverse Time Tablet.

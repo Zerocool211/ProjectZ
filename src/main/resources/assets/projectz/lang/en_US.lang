@@ -22,8 +22,8 @@ item.cobblestone_tablet.name=Cobblestone Tablet
 item.dirt_tablet.name=Dirt Tablet
 item.gravel_tablet.name=Gravel Tablet
 item.reversing_tablet.name=Reversing Tablet
-item.day_tablet.name=Day Tablet
-item.night_tablet.name=Night Tablet
+item.time_tablet.name=Time Tablet
+item.reverse_time_tablet.name=Reverse Time Tablet
 item.growth_tablet.name=Growth Tablet
 item.flight_tablet.name=Flight Tablet
 

@@ -32,8 +32,8 @@ public class ModItems
     public static Item dirtTablet;
     public static Item gravelTablet;
     public static Item reversingTablet;
-    public static Item dayTablet;
-    public static Item nightTablet;
+    public static Item timeTablet;
+    public static Item reverseTimeTablet;
     public static Item growthTablet;
     public static Item flightTablet;
 
@@ -58,8 +58,8 @@ public class ModItems
         dirtTablet = new DirtTablet("dirt_tablet");
         gravelTablet = new GravelTablet("gravel_tablet");
         reversingTablet = new ModItem("reversing_tablet");
-        dayTablet = new DayTablet("day_tablet");
-        nightTablet = new NightTablet("night_tablet");
+        timeTablet = new TimeTablet("time_tablet");
+        reverseTimeTablet = new ReverseTimeTablet("reverse_time_tablet");
         growthTablet = new GrowthTablet("growth_tablet");
         flightTablet = new ModItem("flight_tablet"); //
 
@@ -82,8 +82,8 @@ public class ModItems
         register(dirtTablet, new ResourceLocation(ProjectZ.MODID, "dirt_tablet"));
         register(gravelTablet, new ResourceLocation(ProjectZ.MODID, "gravel_tablet"));
         register(reversingTablet, new ResourceLocation(ProjectZ.MODID, "reversing_tablet"));
-        register(dayTablet, new ResourceLocation(ProjectZ.MODID, "day_tablet"));
-        register(nightTablet, new ResourceLocation(ProjectZ.MODID, "night_tablet"));
+        register(timeTablet, new ResourceLocation(ProjectZ.MODID, "time_tablet"));
+        register(reverseTimeTablet, new ResourceLocation(ProjectZ.MODID, "reverse_time_tablet"));
         register(growthTablet, new ResourceLocation(ProjectZ.MODID, "growth_tablet"));
         register(flightTablet, new ResourceLocation(ProjectZ.MODID, "flight_tablet"));
     }
@@ -108,8 +108,8 @@ public class ModItems
         registerRender(dirtTablet);
         registerRender(gravelTablet);
         registerRender(reversingTablet);
-        registerRender(dayTablet);
-        registerRender(nightTablet);
+        registerRender(timeTablet);
+        registerRender(reverseTimeTablet);
         registerRender(growthTablet);
         registerRender(flightTablet);
     }
