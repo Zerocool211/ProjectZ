@@ -50,17 +50,17 @@ public class ModItems
         fakeDiamondLeggings = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.LEGS, "fake_diamond_leggings"));
         fakeDiamondBoots = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.FEET, "fake_diamond_boots"));
         blankTablet = new ModItem("blank_tablet");
-        destructionTablet = new ModItem("destruction_tablet").setMaxStackSize(1); //
+        destructionTablet = new ModTablet("destruction_tablet"); //
         waterTablet = new WaterTablet("water_tablet");
         lavaTablet = new LavaTablet("lava_tablet");
         cobblestoneTablet = new CobblestoneTablet("cobblestone_tablet");
         dirtTablet = new DirtTablet("dirt_tablet");
         gravelTablet = new GravelTablet("gravel_tablet");
-        reversingTablet = new ModItem("reversing_tablet").setMaxStackSize(1);
+        reversingTablet = new ModTablet("reversing_tablet");
         timeTablet = new TimeTablet("time_tablet");
         reverseTimeTablet = new ReverseTimeTablet("reverse_time_tablet");
         growthTablet = new GrowthTablet("growth_tablet");
-        flightTablet = new ModItem("flight_tablet").setMaxStackSize(1); //
+        flightTablet = new ModTablet("flight_tablet"); //
 
         registerItems();
     }
