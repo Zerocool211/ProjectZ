@@ -78,7 +78,7 @@ public class ModEventHandler
                 {
                     ModTablet.tabletEffect = true;
                 }
-                else
+                if(!player.inventory.hasItemStack(new ItemStack(Items.COAL)))
                 {
                     ModTablet.tabletEffect = false;
                 }
