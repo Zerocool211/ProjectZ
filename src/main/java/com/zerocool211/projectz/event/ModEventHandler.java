@@ -69,22 +69,7 @@ public class ModEventHandler
     @SubscribeEvent
     public void livingUpdate(LivingEvent.LivingUpdateEvent event)
     {
-        //if(event.getEntity() instanceof EntityPlayer)
-        //{
-            //EntityPlayer player = (EntityPlayer) event.getEntity();
-            //if(player.getHeldItemMainhand() != null)
-            //{
-                //if(player.inventory.hasItemStack(new ItemStack(Items.COAL)))
-                //{
-                    //ModTablet.tabletEffect = true;
-                //}
-                //if(!player.inventory.hasItemStack(new ItemStack(Items.COAL)))
-                //{
-                    //ModTablet.tabletEffect = false;
-                //}
-            //}
-
-        //}
+        //todo
     }
 
     @SubscribeEvent
