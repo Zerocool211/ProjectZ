@@ -29,7 +29,7 @@ public class GravelTablet extends ModItem
         IBlockState iblockstate = world.getBlockState(pos);
         Block block = iblockstate.getBlock();
 
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)))
+        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) || player.isCreative())
         {
             if (block == Blocks.SNOW_LAYER && ((Integer)iblockstate.getValue(BlockSnow.LAYERS)).intValue() < 1)
             {
@@ -42,6 +42,11 @@ public class GravelTablet extends ModItem
 
             if(player.canPlayerEdit(pos, facing, stack) && world.canBlockBePlaced(block, pos, false, facing, (Entity)null, stack))
             {
+                if(!player.isCreative())
+                {
+                    //Remove Coal for example
+                }
+
                 world.setBlockState(pos, Blocks.GRAVEL.getDefaultState());
                 player.playSound(SoundEvents.BLOCK_GRAVEL_PLACE, 1.0F, 0.8F);
                 return EnumActionResult.SUCCESS;

@@ -30,7 +30,7 @@ public class CobblestoneTablet extends ModItem
         IBlockState iblockstate = world.getBlockState(pos);
         Block block = iblockstate.getBlock();
 
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)))
+        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) || player.isCreative())
         {
             if (block == Blocks.SNOW_LAYER && ((Integer)iblockstate.getValue(BlockSnow.LAYERS)).intValue() < 1)
             {
@@ -45,6 +45,11 @@ public class CobblestoneTablet extends ModItem
             {
                 IBlockState iblockstate1;
                 iblockstate1 = world.getBlockState(pos);
+
+                if(!player.isCreative())
+                {
+                    //Remove Coal for example
+                }
 
                 world.setBlockState(pos, Blocks.COBBLESTONE.getDefaultState());
                 SoundType soundtype = iblockstate1.getBlock().getSoundType(iblockstate1, world, pos, player);
