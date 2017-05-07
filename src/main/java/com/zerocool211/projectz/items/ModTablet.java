@@ -11,12 +11,4 @@ public class ModTablet extends ModItem
         this.setMaxStackSize(1);
     }
 
-    public static boolean tabletEffect = false;
-
-    @Override
-    public boolean hasEffect(ItemStack stack)
-    {
-        return tabletEffect;
-    }
-
 }
