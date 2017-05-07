@@ -15,13 +15,12 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class GravelTablet extends ModItem
+public class GravelTablet extends ModTablet
 {
 
     public GravelTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override

@@ -15,13 +15,12 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class DirtTablet extends ModItem
+public class DirtTablet extends ModTablet
 {
 
     public DirtTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override

@@ -8,13 +8,12 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
-public class ReverseTimeTablet extends ModItem
+public class ReverseTimeTablet extends ModTablet
 {
 
     public ReverseTimeTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override

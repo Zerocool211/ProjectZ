@@ -17,13 +17,12 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class WaterTablet  extends ModItem
+public class WaterTablet  extends ModTablet
 {
 
     public WaterTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override

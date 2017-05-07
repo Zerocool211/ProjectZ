@@ -8,13 +8,12 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class GrowthTablet extends ModItem
+public class GrowthTablet extends ModTablet
 {
 
     public GrowthTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override

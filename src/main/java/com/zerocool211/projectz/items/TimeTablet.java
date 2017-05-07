@@ -8,13 +8,12 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
-public class TimeTablet extends ModItem
+public class TimeTablet extends ModTablet
 {
 
     public TimeTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override

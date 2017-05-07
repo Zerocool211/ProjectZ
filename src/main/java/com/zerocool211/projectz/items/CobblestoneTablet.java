@@ -16,13 +16,12 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class CobblestoneTablet extends ModItem
+public class CobblestoneTablet extends ModTablet
 {
 
     public CobblestoneTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override

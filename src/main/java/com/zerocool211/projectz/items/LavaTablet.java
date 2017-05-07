@@ -17,13 +17,12 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class LavaTablet extends ModItem
+public class LavaTablet extends ModTablet
 {
 
     public LavaTablet(String name)
     {
         super(name);
-        this.setMaxStackSize(1);
     }
 
     @Override
