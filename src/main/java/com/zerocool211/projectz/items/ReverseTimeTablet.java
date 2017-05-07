@@ -14,6 +14,7 @@ public class ReverseTimeTablet extends ModItem
     public ReverseTimeTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override

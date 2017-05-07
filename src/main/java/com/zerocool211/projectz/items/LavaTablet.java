@@ -23,6 +23,7 @@ public class LavaTablet extends ModItem
     public LavaTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override

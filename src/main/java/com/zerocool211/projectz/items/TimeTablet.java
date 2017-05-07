@@ -14,6 +14,7 @@ public class TimeTablet extends ModItem
     public TimeTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override

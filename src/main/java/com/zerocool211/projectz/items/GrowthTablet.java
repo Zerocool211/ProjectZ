@@ -14,6 +14,7 @@ public class GrowthTablet extends ModItem
     public GrowthTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override

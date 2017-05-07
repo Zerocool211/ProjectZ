@@ -21,6 +21,7 @@ public class GravelTablet extends ModItem
     public GravelTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override

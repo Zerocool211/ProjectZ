@@ -22,6 +22,7 @@ public class CobblestoneTablet extends ModItem
     public CobblestoneTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override

@@ -21,6 +21,7 @@ public class DirtTablet extends ModItem
     public DirtTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override

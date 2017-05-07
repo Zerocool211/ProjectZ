@@ -23,6 +23,7 @@ public class WaterTablet  extends ModItem
     public WaterTablet(String name)
     {
         super(name);
+        this.setMaxStackSize(1);
     }
 
     @Override
