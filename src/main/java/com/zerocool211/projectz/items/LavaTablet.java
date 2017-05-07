@@ -49,7 +49,7 @@ public class LavaTablet extends ModItem
                 return EnumActionResult.SUCCESS;
             }
         }
-        
+
         if(player.isCreative())
         {
             if (block == Blocks.SNOW_LAYER && ((Integer)iblockstate.getValue(BlockSnow.LAYERS)).intValue() < 1)
