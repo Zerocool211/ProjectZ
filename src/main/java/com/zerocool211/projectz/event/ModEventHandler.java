@@ -1,6 +1,7 @@
 package com.zerocool211.projectz.event;
 
 import com.zerocool211.projectz.common.ModItems;
+import com.zerocool211.projectz.items.ModTablet;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;
@@ -68,7 +69,22 @@ public class ModEventHandler
     @SubscribeEvent
     public void livingUpdate(LivingEvent.LivingUpdateEvent event)
     {
-        //todo
+        if(event.getEntity() instanceof EntityPlayer)
+        {
+            EntityPlayer player = (EntityPlayer) event.getEntity();
+            if(player.getHeldItemMainhand() != null)
+            {
+                if(player.inventory.hasItemStack(new ItemStack(Items.COAL)))
+                {
+                    ModTablet.tabletEffect = true;
+                }
+                else
+                {
+                    ModTablet.tabletEffect = false;
+                }
+            }
+
+        }
     }
 
     @SubscribeEvent
