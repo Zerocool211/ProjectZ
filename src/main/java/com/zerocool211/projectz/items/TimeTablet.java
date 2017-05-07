@@ -19,13 +19,21 @@ public class TimeTablet extends ModItem
     @Override
     public ActionResult<ItemStack> onItemRightClick(ItemStack stack, World world, EntityPlayer player, EnumHand hand)
     {
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && !player.isSneaking())
+        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && !player.isSneaking() || !player.isSneaking() && player.isCreative())
         {
+            if(!player.isCreative())
+            {
+                //todo
+            }
             world.setWorldTime(world.getWorldTime() + 1000);
             return new ActionResult<>(EnumActionResult.SUCCESS, stack);
         }
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && player.isSneaking())
+        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && player.isSneaking() || player.isSneaking() && player.isCreative())
         {
+            if(!player.isCreative())
+            {
+                //todo
+            }
             world.setWorldTime(world.getWorldTime() + 2000);
             return new ActionResult<>(EnumActionResult.SUCCESS, stack);
         }

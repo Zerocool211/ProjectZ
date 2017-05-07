@@ -5,9 +5,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class ReverseTimeTablet extends ModItem
@@ -21,13 +19,21 @@ public class ReverseTimeTablet extends ModItem
     @Override
     public ActionResult<ItemStack> onItemRightClick(ItemStack stack, World world, EntityPlayer player, EnumHand hand)
     {
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && !player.isSneaking())
+        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && !player.isSneaking() || !player.isSneaking() && player.isCreative())
         {
+            if(!player.isCreative())
+            {
+                //todo
+            }
             world.setWorldTime(world.getWorldTime() - 1000);
             return new ActionResult<>(EnumActionResult.SUCCESS, stack);
         }
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && player.isSneaking())
+        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) && player.isSneaking() || player.isSneaking() && player.isCreative())
         {
+            if(!player.isCreative())
+            {
+                //todo
+            }
             world.setWorldTime(world.getWorldTime() - 2000);
             return new ActionResult<>(EnumActionResult.SUCCESS, stack);
         }
