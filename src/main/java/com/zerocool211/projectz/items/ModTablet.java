@@ -1,6 +1,7 @@
 package com.zerocool211.projectz.items;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.Item;
@@ -37,8 +38,8 @@ public class ModTablet extends ModItem
                 if(j.getItem() != null && j.getItem() == removeitem.getItem())
                 {
                     inv.decrStackSize(i, 1);
-                    ep.inventoryContainer.detectAndSendChanges();
-                    //break;
+                    if(ep instanceof EntityPlayerMP)((EntityPlayerMP)ep).sendContainerToPlayer(ep.inventoryContainer);
+                    break;
                 }
             }
         }
