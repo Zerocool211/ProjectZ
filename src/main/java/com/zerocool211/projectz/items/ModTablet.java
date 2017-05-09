@@ -1,7 +1,5 @@
 package com.zerocool211.projectz.items;
 
-import net.minecraft.item.ItemStack;
-
 public class ModTablet extends ModItem
 {
 
