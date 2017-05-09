@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "projectz:items/blank_tablet"
+    "layer0": "projectz:items/reversing_tablet"
   }
 }
