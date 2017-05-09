@@ -15,6 +15,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+import java.util.Random;
+
 public class DirtTablet extends ModTablet
 {
 
@@ -29,7 +31,7 @@ public class DirtTablet extends ModTablet
         IBlockState iblockstate = world.getBlockState(pos);
         Block block = iblockstate.getBlock();
 
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) || player.isCreative())
+        if(player.inventory.hasItemStack(new ItemStack(fuelItem)) || player.isCreative())
         {
             if (block == Blocks.SNOW_LAYER && ((Integer)iblockstate.getValue(BlockSnow.LAYERS)).intValue() < 1)
             {
@@ -44,7 +46,11 @@ public class DirtTablet extends ModTablet
             {
                 if(!player.isCreative())
                 {
-                    //Remove Coal for example
+                    random = new Random();
+                    if(random.nextInt(101) < useChance)
+                    {
+                        removeItem(player, new ItemStack(fuelItem));
+                    }
                 }
 
                 world.setBlockState(pos, Blocks.DIRT.getDefaultState());

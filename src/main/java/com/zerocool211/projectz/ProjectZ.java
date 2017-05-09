@@ -6,6 +6,7 @@ import com.zerocool211.projectz.common.ModCT;
 import com.zerocool211.projectz.common.ModRecipes;
 import com.zerocool211.projectz.event.ModDropHandler;
 import com.zerocool211.projectz.event.ModEventHandler;
+import com.zerocool211.projectz.items.ModTablet;
 import com.zerocool211.projectz.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
@@ -44,6 +45,7 @@ public class ProjectZ
     {
         tabProjectZ = new ModCT(CreativeTabs.getNextID(), "tab_projectz");
         ModItems.preInit();
+        ModTablet.initTabletValues();
         ModBlocks.preInit();
         ModRecipes.initRecipes();
         proxy.preInit(event);

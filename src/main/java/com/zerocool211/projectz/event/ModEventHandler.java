@@ -18,8 +18,12 @@ import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 
+import java.util.Random;
+
 public class ModEventHandler
 {
+
+    public static Random random;
 
     @SubscribeEvent
     public void entityJoinWorld(EntityJoinWorldEvent event)
@@ -39,11 +43,15 @@ public class ModEventHandler
         if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.COBBLESTONE)))
         {
             InventoryPlayer inventory = event.player.inventory;
-            if (inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.fakeDiamond)) && inventory.hasItemStack(new ItemStack(Items.COAL)) && !event.player.isSneaking() || inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.fakeDiamond)) && !event.player.isSneaking() && event.player.isCreative())
+            if (inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.fakeDiamond)) && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) && !event.player.isSneaking() || inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.fakeDiamond)) && !event.player.isSneaking() && event.player.isCreative())
             {
                 if(!event.player.isCreative())
                 {
-                    //todo
+                    random = new Random();
+                    if(random.nextInt(101) < ModTablet.useChance)
+                    {
+                        removeItem(event.player, new ItemStack(ModTablet.fuelItem));
+                    }
                 }
                 removeItem(event.player, new ItemStack(Blocks.COBBLESTONE));
             }

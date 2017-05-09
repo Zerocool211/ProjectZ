@@ -16,6 +16,8 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+import java.util.Random;
+
 public class CobblestoneTablet extends ModTablet
 {
 
@@ -30,7 +32,7 @@ public class CobblestoneTablet extends ModTablet
         IBlockState iblockstate = world.getBlockState(pos);
         Block block = iblockstate.getBlock();
 
-        if(player.inventory.hasItemStack(new ItemStack(Items.COAL)) || player.isCreative())
+        if(player.inventory.hasItemStack(new ItemStack(fuelItem)) || player.isCreative())
         {
             if (block == Blocks.SNOW_LAYER && ((Integer)iblockstate.getValue(BlockSnow.LAYERS)).intValue() < 1)
             {
@@ -48,7 +50,11 @@ public class CobblestoneTablet extends ModTablet
 
                 if(!player.isCreative())
                 {
-                    //Remove Coal for example
+                    random = new Random();
+                    if(random.nextInt(101) < useChance)
+                    {
+                        removeItem(player, new ItemStack(fuelItem));
+                    }
                 }
 
                 world.setBlockState(pos, Blocks.COBBLESTONE.getDefaultState());
