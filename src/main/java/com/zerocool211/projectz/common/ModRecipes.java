@@ -31,6 +31,16 @@ public class ModRecipes
         //Tablet Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.blankTablet, 1), "SIS", "ISI", "SIS", 'S', new ItemStack(Blocks.STONE, 1, 0), 'I', new ItemStack(Items.DYE, 1, 0));
         GameRegistry.addRecipe(new ItemStack(ModItems.destructionTablet, 1), "SCS", "CTC", "DLD", 'S', Blocks.COBBLESTONE, 'D', Blocks.DIRT, 'C', Items.COAL, 'T', ModItems.blankTablet , 'L', Items.LAVA_BUCKET);
+        GameRegistry.addRecipe(new ItemStack(ModItems.waterTablet, 1), "OBO", "BTB", "OBO", 'O', Blocks.OBSIDIAN, 'B', Items.WATER_BUCKET, 'T', ModItems.blankTablet);
+        GameRegistry.addRecipe(new ItemStack(ModItems.lavaTablet, 1), "OBO", "BTB", "OBO", 'O', Blocks.OBSIDIAN, 'B', Items.LAVA_BUCKET, 'T', ModItems.blankTablet);
+        GameRegistry.addRecipe(new ItemStack(ModItems.cobblestoneTablet, 1), "GBG", "BTB", "GBG", 'G', Items.GUNPOWDER, 'B', Blocks.COBBLESTONE, 'T', ModItems.blankTablet);
+        GameRegistry.addRecipe(new ItemStack(ModItems.dirtTablet, 1), "GBG", "BTB", "GBG", 'G', Items.GUNPOWDER, 'B', Blocks.DIRT, 'T', ModItems.blankTablet);
+        GameRegistry.addRecipe(new ItemStack(ModItems.gravelTablet, 1), "GBG", "BTB", "GBG", 'G', Items.GUNPOWDER, 'B', Blocks.GRAVEL, 'T', ModItems.blankTablet);
+        GameRegistry.addRecipe(new ItemStack(ModItems.reversingTablet, 1), "LFL", "NTN", "LFL", 'L', Blocks.LAPIS_BLOCK, 'F', Items.FLINT, 'T', ModItems.blankTablet, 'N', Items.QUARTZ);
+        GameRegistry.addRecipe(new ItemStack(ModItems.timeTablet, 1), "GLG", "CTC", "GSG", 'G', Blocks.GOLD_BLOCK, 'C', Items.CLOCK, 'T', ModItems.blankTablet, 'L', new ItemStack(Items.DYE, 1, 4), 'S', Items.STICK);
+        GameRegistry.addRecipe(new ItemStack(ModItems.reverseTimeTablet, 1), "GSG", "CTC", "GLG", 'G', Blocks.GOLD_BLOCK, 'C', Items.CLOCK, 'T', ModItems.blankTablet, 'L', new ItemStack(Items.DYE, 1, 4), 'S', Items.STICK);
+        //GameRegistry.addRecipe(new ItemStack(ModItems.growthTablet, 1), "SBC", "MTM", "OBP", 'B', Items.BONE, 'M', new ItemStack(Items.DYE, 1, 15), 'T', ModItems.blankTablet, 'S', Items.WHEAT_SEEDS, 'C', Items.REEDS, 'O', new ItemStack(Blocks.SAPLING, 1, 0), 'P', Items.PUMPKIN_SEEDS);
+        //GameRegistry.addRecipe(new ItemStack(ModItems.flightTablet, 1), "DND", "NTN", "DGD", 'D', Blocks.DIAMOND_BLOCK, 'G', Items.GHAST_TEAR, 'T', ModItems.blankTablet, 'N', Items.NETHER_STAR);
     }
 
     public static void addAxeRecipe(ItemStack output, Item material, Item shaft)

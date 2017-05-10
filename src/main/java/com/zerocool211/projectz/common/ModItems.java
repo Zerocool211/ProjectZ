@@ -58,7 +58,7 @@ public class ModItems
         dirtTablet = new DirtTablet("dirt_tablet");
         gravelTablet = new GravelTablet("gravel_tablet");
         reversingTablet = new ModTablet("reversing_tablet");
-        timeTablet = new TimeTablet("time_tablet");
+        timeTablet = new TimeTablet("time_tablet"); //C
         reverseTimeTablet = new ReverseTimeTablet("reverse_time_tablet");
         growthTablet = new GrowthTablet("growth_tablet");
         flightTablet = new ModTablet("flight_tablet"); //
