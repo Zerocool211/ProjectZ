@@ -1,8 +1,8 @@
 package com.zerocool211.projectz.items;
 
+import com.zerocool211.projectz.common.ModItems;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -24,7 +24,7 @@ public class ModTablet extends ModItem
 
     public static void initTabletValues()
     {
-        fuelItem = Items.COAL;
+        fuelItem = ModItems.essence;
         useChance = 5;
     }
 
