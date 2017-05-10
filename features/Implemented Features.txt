@@ -30,8 +30,8 @@ Dirt Tablet - will place dirt when right clicked. - mostly implemented.
 Gravel Tablet - will place gravel when right clicked. - mostly implemented.
 Reversing Tablet - will be used to reverse craft items, but not using a crafting table. - partly implemented.
 Time Tablet - will be used fast forward the time. - mostly implemented.
-Reverse Time Tablet - will be used to rewind the time. - partly implemented.
-Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal. - partly implemented.
-Flight Tablet - will grant the player creative flight. - partly implemented.
+Reverse Time Tablet - will be used to rewind the time. - mostly implemented.
+Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal. - has no functionality yet.
+Flight Tablet - will grant the player creative flight. - has no functionality yet.
 
-
+Essence - will be dropped by zombies and spiders, will be used as fuel for the tablets.

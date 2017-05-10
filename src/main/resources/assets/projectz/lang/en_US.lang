@@ -26,6 +26,7 @@ item.time_tablet.name=Time Tablet
 item.reverse_time_tablet.name=Reverse Time Tablet
 item.growth_tablet.name=Growth Tablet
 item.flight_tablet.name=Flight Tablet
+item.essence.name=Essence
 
 #Blocks
 tile.fake_diamond_block.name=Fake Diamond Block

@@ -36,6 +36,7 @@ public class ModItems
     public static Item reverseTimeTablet;
     public static Item growthTablet;
     public static Item flightTablet;
+    public static Item essence;
 
     public static void preInit()
     {
@@ -61,6 +62,7 @@ public class ModItems
         reverseTimeTablet = new ReverseTimeTablet("reverse_time_tablet");
         growthTablet = new GrowthTablet("growth_tablet");
         flightTablet = new ModTablet("flight_tablet"); //
+        essence = new ModItem("essence");
 
         registerItems();
     }
@@ -85,6 +87,7 @@ public class ModItems
         register(reverseTimeTablet, new ResourceLocation(ProjectZ.MODID, "reverse_time_tablet"));
         register(growthTablet, new ResourceLocation(ProjectZ.MODID, "growth_tablet"));
         register(flightTablet, new ResourceLocation(ProjectZ.MODID, "flight_tablet"));
+        register(essence, new ResourceLocation(ProjectZ.MODID, "essence"));
     }
 
     public static void registerRenders()
@@ -111,6 +114,7 @@ public class ModItems
         registerRender(reverseTimeTablet);
         registerRender(growthTablet);
         registerRender(flightTablet);
+        registerRender(essence);
     }
 
     public static void registerRender(Item item)

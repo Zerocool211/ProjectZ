@@ -11,4 +11,3 @@ Gravel Token - will make the destruction tablet destroy gravel.
 
 More tokens will be added soon.
 
-Essence - will be dropped by zombies and spiders, will be used as fuel for the tablets.
