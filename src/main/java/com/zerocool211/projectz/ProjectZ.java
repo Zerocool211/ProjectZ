@@ -45,8 +45,8 @@ public class ProjectZ
     {
         tabProjectZ = new ModCT(CreativeTabs.getNextID(), "tab_projectz");
         ModItems.preInit();
-        ModTablet.initTabletValues();
         ModBlocks.preInit();
+        ModTablet.initTabletValues();
         ModRecipes.initRecipes();
         proxy.preInit(event);
     }
