@@ -48,11 +48,7 @@ public class LavaTablet extends ModTablet
             {
                 if(!player.isCreative())
                 {
-                    random = new Random();
-                    if(random.nextInt(101) < useChance)
-                    {
-                        removeItem(player, new ItemStack(fuelItem));
-                    }
+                    removeFuelItem(player);
                 }
                 world.setBlockState(pos, Blocks.FLOWING_LAVA.getDefaultState());
                 player.playSound(SoundEvents.ITEM_BUCKET_EMPTY_LAVA, 1.0F, 1.0F);

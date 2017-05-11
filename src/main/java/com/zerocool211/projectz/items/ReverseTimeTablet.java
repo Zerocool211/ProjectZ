@@ -25,11 +25,7 @@ public class ReverseTimeTablet extends ModTablet
         {
             if(!player.isCreative())
             {
-                random = new Random();
-                if(random.nextInt(101) < useChance)
-                {
-                    removeItem(player, new ItemStack(fuelItem));
-                }
+                removeFuelItem(player);
             }
             world.setWorldTime(world.getWorldTime() - 1000);
             return new ActionResult<>(EnumActionResult.SUCCESS, stack);
@@ -41,7 +37,7 @@ public class ReverseTimeTablet extends ModTablet
                 random = new Random();
                 if(random.nextInt(101) < useChance)
                 {
-                    removeItem(player, new ItemStack(fuelItem));
+                    removeFuelItem(player);
                 }
             }
             world.setWorldTime(world.getWorldTime() - 2000);

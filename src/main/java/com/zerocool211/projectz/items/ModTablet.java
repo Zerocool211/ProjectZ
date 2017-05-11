@@ -28,7 +28,16 @@ public class ModTablet extends ModItem
         useChance = 5;
     }
 
-    public void removeItem(EntityPlayer ep, ItemStack removeitem) {
+    public static void removeFuelItem(EntityPlayer player)
+    {
+        random = new Random();
+        if(random.nextInt(101) < useChance)
+        {
+            removeItem(player, new ItemStack(fuelItem));
+        }
+    }
+
+    public static void removeItem(EntityPlayer ep, ItemStack removeitem) {
         IInventory inv = ep.inventory;
         for(int i=0; i < inv.getSizeInventory(); i++)
         {

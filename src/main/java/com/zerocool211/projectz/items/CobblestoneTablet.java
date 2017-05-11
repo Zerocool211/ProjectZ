@@ -50,11 +50,7 @@ public class CobblestoneTablet extends ModTablet
 
                 if(!player.isCreative())
                 {
-                    random = new Random();
-                    if(random.nextInt(101) < useChance)
-                    {
-                        removeItem(player, new ItemStack(fuelItem));
-                    }
+                    removeFuelItem(player);
                 }
 
                 world.setBlockState(pos, Blocks.COBBLESTONE.getDefaultState());

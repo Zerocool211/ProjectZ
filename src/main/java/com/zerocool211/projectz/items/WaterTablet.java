@@ -48,11 +48,7 @@ public class WaterTablet  extends ModTablet
             {
                 if(!player.isCreative())
                 {
-                    random = new Random();
-                    if(random.nextInt(101) < useChance)
-                    {
-                        removeItem(player, new ItemStack(fuelItem));
-                    }
+                    removeFuelItem(player);
                 }
                 world.setBlockState(pos, Blocks.FLOWING_WATER.getDefaultState());
                 player.playSound(SoundEvents.ITEM_BUCKET_EMPTY, 1.0F, 1.0F);
