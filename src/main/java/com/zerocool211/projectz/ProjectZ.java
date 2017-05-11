@@ -6,6 +6,7 @@ import com.zerocool211.projectz.common.ModCT;
 import com.zerocool211.projectz.common.ModRecipes;
 import com.zerocool211.projectz.event.ModDropHandler;
 import com.zerocool211.projectz.event.ModEventHandler;
+import com.zerocool211.projectz.event.ModReverseCraftingHandler;
 import com.zerocool211.projectz.items.ModTablet;
 import com.zerocool211.projectz.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
@@ -57,6 +58,7 @@ public class ProjectZ
         proxy.init(event);
         MinecraftForge.EVENT_BUS.register(new ModDropHandler());
         MinecraftForge.EVENT_BUS.register(new ModEventHandler());
+        MinecraftForge.EVENT_BUS.register(new ModReverseCraftingHandler());
     }
 
     @EventHandler
