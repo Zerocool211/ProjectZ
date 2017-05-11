@@ -22,9 +22,7 @@ import java.util.Random;
 
 public class ModEventHandler
 {
-
-    public static Random random;
-
+    
     @SubscribeEvent
     public void entityJoinWorld(EntityJoinWorldEvent event)
     {
