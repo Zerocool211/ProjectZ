@@ -155,6 +155,43 @@ public class ModReverseCraftingHandler
                 }
             }
         }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.REDSTONE_TORCH)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if(event.player.getHeldItemMainhand() != null)
+            {
+                if (event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) ||event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && event.player.isCreative())
+                {
+                    if(!event.player.isCreative())
+                    {
+                        ModTablet.removeFuelItem(event.player);
+                    }
+                    ModTablet.removeItem(event.player, new ItemStack(Blocks.REDSTONE_TORCH));
+                    inventory.addItemStackToInventory(new ItemStack(Items.STICK, 1));
+                    inventory.addItemStackToInventory(new ItemStack(Items.REDSTONE, 1));
+                }
+            }
+        }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Items.WRITABLE_BOOK)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if(event.player.getHeldItemMainhand() != null)
+            {
+                if (event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) ||event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && event.player.isCreative())
+                {
+                    if(!event.player.isCreative())
+                    {
+                        ModTablet.removeFuelItem(event.player);
+                    }
+                    ModTablet.removeItem(event.player, new ItemStack(Items.WRITABLE_BOOK));
+                    inventory.addItemStackToInventory(new ItemStack(Items.BOOK, 1));
+                    inventory.addItemStackToInventory(new ItemStack(Items.FEATHER, 1));
+                    inventory.addItemStackToInventory(new ItemStack(Items.DYE, 1, 0));
+                }
+            }
+        }
     }
 
 }
