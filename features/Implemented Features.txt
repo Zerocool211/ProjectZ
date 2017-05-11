@@ -23,7 +23,6 @@ Zombies and spiders have 80% chance to drop 1 essence.
 
 Blank Tablet - is used to craft the other tablets.
 Destruction Tablet - destroys picked up items, specified by tokens. - mostly implemented.
-
 Water Tablet - places water when right clicked. - fully implemented.
 Lava Tablet - places lava when right clicked. - fully implemented.
 Cobblestone Tablet - places cobblestone when right clicked. - fully implemented.
@@ -36,3 +35,25 @@ Growth Tablet - will cause plants right clicked on to grow faster, somewhat like
 Flight Tablet - will grant the player creative flight. - has no functionality yet.
 
 Essence - will be dropped by zombies and spiders, will be used as fuel for the tablets.
+
+To reverse craft pick up the item you want to reverse craft while holding the reversing tablet.
+Items that can be reverse crafted:
+Book into 3 paper and 1 leather.
+Wool into 4 string.
+Compass into 4 iron and 1 redstone.
+Clock into 4 gold and 1 redstone.
+Item frame into 8 sticks and 1 leather.
+Bucket into 3 iron.
+Minecart into 5 iron.
+Sticky piston into 1 piston and 1 slime ball.
+Redstone torch into 1 stick and 1 redstone.
+Book and quill into 1 book, 1 feather and 1 ink sac.
+
+
+
+
+
+
+
+
+
