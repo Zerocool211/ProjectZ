@@ -28,7 +28,7 @@ Lava Tablet - places lava when right clicked. - fully implemented.
 Cobblestone Tablet - places cobblestone when right clicked. - fully implemented.
 Dirt Tablet - places dirt when right clicked. - fully implemented.
 Gravel Tablet - places gravel when right clicked. - fully implemented.
-Reversing Tablet - will be used to reverse craft items, but not using a crafting table. - partly implemented.
+Reversing Tablet - will be used to reverse craft items, but not using a crafting table. - fully implemented.
 Time Tablet - is used to fast forward the time. - fully implemented.
 Reverse Time Tablet - is used to rewind the time. - fully implemented.
 Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal. - has no functionality yet.
