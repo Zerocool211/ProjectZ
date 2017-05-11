@@ -48,12 +48,3 @@ Minecart into 5 iron.
 Sticky piston into 1 piston and 1 slime ball.
 Redstone torch into 1 stick and 1 redstone.
 Book and quill into 1 book, 1 feather and 1 ink sac.
-
-
-
-
-
-
-
-
-
