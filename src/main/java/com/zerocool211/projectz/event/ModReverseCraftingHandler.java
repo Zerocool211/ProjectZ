@@ -85,6 +85,76 @@ public class ModReverseCraftingHandler
                 }
             }
         }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Items.ITEM_FRAME)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if(event.player.getHeldItemMainhand() != null)
+            {
+                if (event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) ||event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && event.player.isCreative())
+                {
+                    if(!event.player.isCreative())
+                    {
+                        ModTablet.removeFuelItem(event.player);
+                    }
+                    ModTablet.removeItem(event.player, new ItemStack(Items.ITEM_FRAME));
+                    inventory.addItemStackToInventory(new ItemStack(Items.STICK, 8));
+                    inventory.addItemStackToInventory(new ItemStack(Items.LEATHER, 1));
+                }
+            }
+        }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Items.BUCKET)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if(event.player.getHeldItemMainhand() != null)
+            {
+                if (event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) ||event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && event.player.isCreative())
+                {
+                    if(!event.player.isCreative())
+                    {
+                        ModTablet.removeFuelItem(event.player);
+                    }
+                    ModTablet.removeItem(event.player, new ItemStack(Items.BUCKET));
+                    inventory.addItemStackToInventory(new ItemStack(Items.IRON_INGOT, 3));
+                }
+            }
+        }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Items.MINECART)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if(event.player.getHeldItemMainhand() != null)
+            {
+                if (event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) ||event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && event.player.isCreative())
+                {
+                    if(!event.player.isCreative())
+                    {
+                        ModTablet.removeFuelItem(event.player);
+                    }
+                    ModTablet.removeItem(event.player, new ItemStack(Items.MINECART));
+                    inventory.addItemStackToInventory(new ItemStack(Items.IRON_INGOT, 5));
+                }
+            }
+        }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.STICKY_PISTON)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if(event.player.getHeldItemMainhand() != null)
+            {
+                if (event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) ||event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && event.player.isCreative())
+                {
+                    if(!event.player.isCreative())
+                    {
+                        ModTablet.removeFuelItem(event.player);
+                    }
+                    ModTablet.removeItem(event.player, new ItemStack(Blocks.STICKY_PISTON));
+                    inventory.addItemStackToInventory(new ItemStack(Blocks.PISTON, 1));
+                    inventory.addItemStackToInventory(new ItemStack(Items.SLIME_BALL, 1));
+                }
+            }
+        }
     }
 
 }
