@@ -37,6 +37,10 @@ public class ModItems
     public static Item growthTablet;
     public static Item flightTablet;
     public static Item essence;
+    public static Item cobblestoneToken;
+    public static Item stoneToken;
+    public static Item dirtToken;
+    public static Item gravelToken;
 
     public static void preInit()
     {
@@ -51,7 +55,7 @@ public class ModItems
         fakeDiamondLeggings = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.LEGS, "fake_diamond_leggings"));
         fakeDiamondBoots = register(new ModArmor(ProjectZ.FAKE_DIAMOND,EntityEquipmentSlot.FEET, "fake_diamond_boots"));
         blankTablet = new ModItem("blank_tablet");
-        destructionTablet = new ModTablet("destruction_tablet"); //
+        destructionTablet = new ModTablet("destruction_tablet");
         waterTablet = new WaterTablet("water_tablet");
         lavaTablet = new LavaTablet("lava_tablet");
         cobblestoneTablet = new CobblestoneTablet("cobblestone_tablet");
@@ -61,8 +65,12 @@ public class ModItems
         timeTablet = new TimeTablet("time_tablet"); //C
         reverseTimeTablet = new ReverseTimeTablet("reverse_time_tablet");
         growthTablet = new GrowthTablet("growth_tablet");
-        flightTablet = new ModTablet("flight_tablet"); //
+        flightTablet = new ModTablet("flight_tablet");
         essence = new ModItem("essence");
+        cobblestoneToken = new ModToken("cobblestone_token"); //
+        stoneToken = new ModToken("stone_token");
+        dirtToken = new ModToken("dirt_token");
+        gravelToken = new ModToken("gravel_token"); //
 
         registerItems();
     }
@@ -88,6 +96,10 @@ public class ModItems
         register(growthTablet, new ResourceLocation(ProjectZ.MODID, "growth_tablet"));
         register(flightTablet, new ResourceLocation(ProjectZ.MODID, "flight_tablet"));
         register(essence, new ResourceLocation(ProjectZ.MODID, "essence"));
+        register(cobblestoneToken, new ResourceLocation(ProjectZ.MODID, "cobblestone_token"));
+        register(stoneToken, new ResourceLocation(ProjectZ.MODID, "stone_token"));
+        register(dirtToken, new ResourceLocation(ProjectZ.MODID, "dirt_token"));
+        register(gravelToken, new ResourceLocation(ProjectZ.MODID, "gravel_token"));
     }
 
     public static void registerRenders()
@@ -115,6 +127,10 @@ public class ModItems
         registerRender(growthTablet);
         registerRender(flightTablet);
         registerRender(essence);
+        registerRender(cobblestoneToken);
+        registerRender(stoneToken);
+        registerRender(dirtToken);
+        registerRender(gravelToken);
     }
 
     public static void registerRender(Item item)
