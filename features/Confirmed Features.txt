@@ -1,13 +1,5 @@
 Confirmed Features:
 -------------------
 
-Cobblestone Token - will make the destruction tablet destroy cobblestone.
-
-Stone Token - will make the destruction tablet destroy stone.
-
-Dirt Token - will make the destruction tablet destroy dirt.
-
-Gravel Token - will make the destruction tablet destroy gravel.
-
 More tokens will be added soon.
 
