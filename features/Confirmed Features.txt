@@ -1,5 +1,7 @@
 Confirmed Features:
 -------------------
 
+Milk Tablet - removes all potion effects when right clicked.
+
 More tokens will be added soon.
 
