@@ -36,6 +36,7 @@ public class ModItems
     public static Item reverseTimeTablet;
     public static Item growthTablet;
     public static Item flightTablet;
+    public static Item milkTablet;
     public static Item essence;
     public static Item cobblestoneToken;
     public static Item stoneToken;
@@ -66,6 +67,7 @@ public class ModItems
         reverseTimeTablet = new ReverseTimeTablet("reverse_time_tablet");
         growthTablet = new GrowthTablet("growth_tablet");
         flightTablet = new ModTablet("flight_tablet");
+        milkTablet = new MilkTablet("milk_tablet");
         essence = new ModItem("essence");
         cobblestoneToken = new ModToken("cobblestone_token"); //
         stoneToken = new ModToken("stone_token");
@@ -95,6 +97,7 @@ public class ModItems
         register(reverseTimeTablet, new ResourceLocation(ProjectZ.MODID, "reverse_time_tablet"));
         register(growthTablet, new ResourceLocation(ProjectZ.MODID, "growth_tablet"));
         register(flightTablet, new ResourceLocation(ProjectZ.MODID, "flight_tablet"));
+        register(milkTablet, new ResourceLocation(ProjectZ.MODID, "milk_tablet"));
         register(essence, new ResourceLocation(ProjectZ.MODID, "essence"));
         register(cobblestoneToken, new ResourceLocation(ProjectZ.MODID, "cobblestone_token"));
         register(stoneToken, new ResourceLocation(ProjectZ.MODID, "stone_token"));
@@ -126,6 +129,7 @@ public class ModItems
         registerRender(reverseTimeTablet);
         registerRender(growthTablet);
         registerRender(flightTablet);
+        registerRender(milkTablet);
         registerRender(essence);
         registerRender(cobblestoneToken);
         registerRender(stoneToken);
