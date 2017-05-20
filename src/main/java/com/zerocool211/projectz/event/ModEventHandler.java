@@ -46,6 +46,45 @@ public class ModEventHandler
                 removeItem(event.player, new ItemStack(Blocks.COBBLESTONE));
             }
         }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.STONE, 1, 0)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if (inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.stoneToken)) && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) && !event.player.isSneaking() || inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.stoneToken)) && !event.player.isSneaking() && event.player.isCreative())
+            {
+                if(!event.player.isCreative())
+                {
+                    ModTablet.removeFuelItem(event.player);
+                }
+                removeItem(event.player, new ItemStack(Blocks.STONE, 1, 0));
+            }
+        }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.DIRT)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if (inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.dirtToken)) && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) && !event.player.isSneaking() || inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.dirtToken)) && !event.player.isSneaking() && event.player.isCreative())
+            {
+                if(!event.player.isCreative())
+                {
+                    ModTablet.removeFuelItem(event.player);
+                }
+                removeItem(event.player, new ItemStack(Blocks.DIRT));
+            }
+        }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.GRAVEL)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if (inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.gravelToken)) && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) && !event.player.isSneaking() || inventory.hasItemStack(new ItemStack(ModItems.destructionTablet)) && inventory.hasItemStack(new ItemStack(ModItems.gravelToken)) && !event.player.isSneaking() && event.player.isCreative())
+            {
+                if(!event.player.isCreative())
+                {
+                    ModTablet.removeFuelItem(event.player);
+                }
+                removeItem(event.player, new ItemStack(Blocks.GRAVEL));
+            }
+        }
     }
 
     public void removeItem(EntityPlayer ep, ItemStack removeitem)
