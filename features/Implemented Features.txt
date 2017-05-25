@@ -33,7 +33,7 @@ Time Tablet - is used to fast forward the time. - fully implemented.
 Reverse Time Tablet - is used to rewind the time. - fully implemented.
 Growth Tablet - will cause plants right clicked on to grow faster, somewhat like bonemeal. - has no functionality yet.
 Flight Tablet - will grant the player creative flight. - has no functionality yet.
-Milk Tablet - removes all potion effects when right clicked. - partly implemented.
+Milk Tablet - removes all potion effects when right clicked. - fully implemented except for recipe.
 
 Essence - will be dropped by zombies and spiders, will be used as fuel for the tablets.
 

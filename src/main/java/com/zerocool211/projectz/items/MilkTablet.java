@@ -18,8 +18,19 @@ public class MilkTablet extends ModTablet
     @Override
     public ActionResult<ItemStack> onItemRightClick(ItemStack stack, World world, EntityPlayer player, EnumHand hand)
     {
-        //Todo
-        return new ActionResult<>(EnumActionResult.SUCCESS, stack);
+        if(player.inventory.hasItemStack(new ItemStack(fuelItem)) || player.isCreative())
+        {
+            if(!player.isCreative())
+            {
+                removeFuelItem(player);
+            }
+            if(!world.isRemote)
+            {
+                player.clearActivePotions();
+            }
+            return new ActionResult<>(EnumActionResult.SUCCESS, stack);
+        }
+        return new ActionResult<>(EnumActionResult.PASS, stack);
     }
 
 }
