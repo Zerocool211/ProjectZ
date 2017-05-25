@@ -42,6 +42,12 @@ public class ModRecipes
         //GameRegistry.addRecipe(new ItemStack(ModItems.growthTablet, 1), "SBC", "MTM", "OBP", 'B', Items.BONE, 'M', new ItemStack(Items.DYE, 1, 15), 'T', ModItems.blankTablet, 'S', Items.WHEAT_SEEDS, 'C', Items.REEDS, 'O', new ItemStack(Blocks.SAPLING, 1, 0), 'P', Items.PUMPKIN_SEEDS);
         //GameRegistry.addRecipe(new ItemStack(ModItems.flightTablet, 1), "DND", "NTN", "DGD", 'D', Blocks.DIAMOND_BLOCK, 'G', Items.GHAST_TEAR, 'T', ModItems.blankTablet, 'N', Items.NETHER_STAR);
         GameRegistry.addRecipe(new ItemStack(ModItems.milkTablet, 1), "OBO", "BTB", "OBO", 'O', Blocks.OBSIDIAN, 'B', Items.MILK_BUCKET, 'T', ModItems.blankTablet);
+
+        //Token Recipes
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cobblestoneToken, 1), ModItems.destructionTablet.setContainerItem(ModItems.destructionTablet), Blocks.COBBLESTONE, Items.GUNPOWDER);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.stoneToken, 1), ModItems.destructionTablet.setContainerItem(ModItems.destructionTablet), new ItemStack(Blocks.STONE, 1, 0), Items.GUNPOWDER);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.dirtToken, 1), ModItems.destructionTablet.setContainerItem(ModItems.destructionTablet), Blocks.DIRT, Items.GUNPOWDER);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.gravelToken, 1), ModItems.destructionTablet.setContainerItem(ModItems.destructionTablet), Blocks.GRAVEL, Items.GUNPOWDER);
     }
 
     public static void addAxeRecipe(ItemStack output, Item material, Item shaft)
