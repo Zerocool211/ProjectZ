@@ -50,8 +50,8 @@ Sticky piston into 1 piston and 1 slime ball.
 Redstone torch into 1 stick and 1 redstone.
 Book and quill into 1 book, 1 feather and 1 ink sac.
 
-Cobblestone Token - will make the destruction tablet destroy cobblestone. - fully implemented except for texture.
-Stone Token - will make the destruction tablet destroy stone. - fully implemented except for texture.
-Dirt Token - will make the destruction tablet destroy dirt. - fully implemented except for texture.
-Gravel Token - will make the destruction tablet destroy gravel. - fully implemented except for texture.
+Cobblestone Token - will make the destruction tablet destroy cobblestone. - fully implemented.
+Stone Token - will make the destruction tablet destroy stone. - fully implemented.
+Dirt Token - will make the destruction tablet destroy dirt. - fully implemented.
+Gravel Token - will make the destruction tablet destroy gravel. - fully implemented.
 
