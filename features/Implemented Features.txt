@@ -22,7 +22,7 @@ Skeletons and creepers drop 1 fake diamond and have a 25% chance to drop 2.
 Zombies and spiders have 80% chance to drop 1 essence.
 
 Blank Tablet - is used to craft the other tablets.
-Destruction Tablet - destroys picked up items, specified by tokens. - mostly implemented.
+Destruction Tablet - destroys picked up items, specified by tokens. - fully implemented.
 Water Tablet - places water when right clicked. - fully implemented.
 Lava Tablet - places lava when right clicked. - fully implemented.
 Cobblestone Tablet - places cobblestone when right clicked. - fully implemented.
