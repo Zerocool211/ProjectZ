@@ -7,7 +7,7 @@ Things that have been added are listed in Implemented Features.
 
 Among the things added to the mod is fake diamond stuff and tablets that do some cool stuff.
 
-Version 1.0 for 1.10.2 has been released, download it from the releases tab.
+Version 1.0.1 for 1.10.2 has been released, download it from the releases tab.
 
 Curse Link: https://minecraft.curseforge.com/projects/projectz
 
