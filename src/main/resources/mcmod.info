@@ -2,7 +2,7 @@
 {
   "modid": "projectz",
   "name": "ProjectZ",
-  "description": "A Mod That Adds Fake Diamonds, A Fake Diamond Block, Fake Diamond Tools and Fake Diamond Armor. Also Adds Tablets That Do Cool Stuff.",
+  "description": "A Mod That Adds Fake Diamonds, A Fake Diamond Block, Fake Diamond Tools and Fake Diamond Armor. Also Adds Tablets That Do Some Cool Stuff, The Tablets Use Essence As Fuel Source",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

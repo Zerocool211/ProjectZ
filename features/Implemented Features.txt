@@ -35,7 +35,7 @@ Growth Tablet - will cause plants right clicked on to grow faster, somewhat like
 Flight Tablet - will grant the player creative flight. - has no functionality yet.
 Milk Tablet - removes all potion effects when right clicked. - fully implemented.
 
-Essence - will be dropped by zombies and spiders, will be used as fuel for the tablets.
+Essence - is dropped by zombies and spiders, is used as fuel for the tablets.
 
 To reverse craft pick up the item you want to reverse craft while holding the reversing tablet.
 Items that can be reverse crafted:
