@@ -62,17 +62,17 @@ public class ModItems
         cobblestoneTablet = new CobblestoneTablet("cobblestone_tablet");
         dirtTablet = new DirtTablet("dirt_tablet");
         gravelTablet = new GravelTablet("gravel_tablet");
-        reversingTablet = new ModTablet("reversing_tablet");
-        timeTablet = new TimeTablet("time_tablet"); //C
+        reversingTablet = new ModTablet("reversing_tablet"); //Reverse Crafts Items
+        timeTablet = new TimeTablet("time_tablet");
         reverseTimeTablet = new ReverseTimeTablet("reverse_time_tablet");
-        growthTablet = new GrowthTablet("growth_tablet");
-        flightTablet = new ModTablet("flight_tablet");
+        growthTablet = new GrowthTablet("growth_tablet"); //NF
+        flightTablet = new ModTablet("flight_tablet"); //NF
         milkTablet = new MilkTablet("milk_tablet");
         essence = new ModItem("essence");
-        cobblestoneToken = new ModToken("cobblestone_token"); //
+        cobblestoneToken = new ModToken("cobblestone_token");
         stoneToken = new ModToken("stone_token");
         dirtToken = new ModToken("dirt_token");
-        gravelToken = new ModToken("gravel_token"); //
+        gravelToken = new ModToken("gravel_token");
 
         registerItems();
     }

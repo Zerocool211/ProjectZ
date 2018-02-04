@@ -2,6 +2,7 @@ package com.zerocool211.projectz.event;
 
 import com.zerocool211.projectz.common.ModItems;
 import com.zerocool211.projectz.items.ModTablet;
+import jdk.nashorn.internal.ir.Block;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -170,6 +171,23 @@ public class ModReverseCraftingHandler
                     ModTablet.removeItem(event.player, new ItemStack(Blocks.REDSTONE_TORCH));
                     inventory.addItemStackToInventory(new ItemStack(Items.STICK, 1));
                     inventory.addItemStackToInventory(new ItemStack(Items.REDSTONE, 1));
+                }
+            }
+        }
+
+        if(event.pickedUp.getEntityItem().isItemEqual(new ItemStack(Blocks.GLOWSTONE)))
+        {
+            InventoryPlayer inventory = event.player.inventory;
+            if(event.player.getHeldItemMainhand() != null)
+            {
+                if (event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && inventory.hasItemStack(new ItemStack(ModTablet.fuelItem)) ||event.player.getHeldItemMainhand().getItem() == ModItems.reversingTablet && event.player.isCreative())
+                {
+                    if(!event.player.isCreative())
+                    {
+                        ModTablet.removeFuelItem(event.player);
+                    }
+                    ModTablet.removeItem(event.player, new ItemStack(Blocks.GLOWSTONE));
+                    inventory.addItemStackToInventory(new ItemStack(Items.GLOWSTONE_DUST, 4));
                 }
             }
         }

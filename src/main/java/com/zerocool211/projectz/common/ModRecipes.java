@@ -15,6 +15,10 @@ public class ModRecipes
         GameRegistry.addRecipe(new ItemStack(ModBlocks.fakeDiamondBlock, 1), "DDD", "DDD", "DDD", 'D', ModItems.fakeDiamond);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.fakeDiamond, 9), ModBlocks.fakeDiamondBlock);
 
+        //Essence Block Recipes
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.essenceBlock, 1), "DDD", "DDD", "DDD", 'D', ModItems.essence);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.essence, 9), ModBlocks.essenceBlock);
+
         //Fake Diamond Tool Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.fakeDiamondSword, 1), "D", "D", "S", 'D', ModItems.fakeDiamond, 'S', Items.STICK);
         GameRegistry.addRecipe(new ItemStack(ModItems.fakeDiamondShovel, 1), "D", "S", "S", 'D', ModItems.fakeDiamond, 'S', Items.STICK);

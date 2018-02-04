@@ -14,3 +14,11 @@ functionality as it is.
 12. Added Essence - used as fuel for the tablets.
 13. Added Milk Tablet, heals all potion effects.
 14. Added Tokens for Destruction Tablet, Tokens for cobblestone, stone, dirt and gravel.
+
+1.10.2-1.0.2:
+1. Added Essence Block and crafting recipes related to it.
+2. Added a reversing recipe for Glowstone Block.
+
+
+
+

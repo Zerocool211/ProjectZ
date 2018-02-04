@@ -43,6 +43,7 @@ public class ModBlocks
     public static void registerRenders()
     {
         registerRender(fakeDiamondBlock);
+        registerRender(essenceBlock);
     }
 
     public static void registerRender(Block block)
