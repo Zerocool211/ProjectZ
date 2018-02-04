@@ -35,3 +35,4 @@ item.gravel_token.name=Gravel Token
 
 #Blocks
 tile.fake_diamond_block.name=Fake Diamond Block
+tile.essence_block.name=Essence Block

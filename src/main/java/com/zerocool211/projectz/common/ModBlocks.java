@@ -17,11 +17,13 @@ public class ModBlocks
 {
 
     public static Block fakeDiamondBlock;
+    public static Block essenceBlock;
 
     public static void preInit()
     {
         //First float is hardness, second is resistance.
         fakeDiamondBlock = new ModBlock(Material.IRON, SoundType.METAL, 5.0F, 10.0F, "fake_diamond_block");
+        essenceBlock = new ModBlock(Material.ROCK, SoundType.STONE, 5.0F, 10.0F, "essence_block"); //Not Surre IF It Will Be Kept
 
         registerBlocks();
     }
@@ -29,6 +31,7 @@ public class ModBlocks
     public static void registerBlocks()
     {
         registerBlock(fakeDiamondBlock, "fake_diamond_block");
+        registerBlock(essenceBlock, "essence_block");
     }
 
     public static void registerBlock(Block block, String name)
