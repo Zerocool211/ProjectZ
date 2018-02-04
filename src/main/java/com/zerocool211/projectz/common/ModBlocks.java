@@ -23,7 +23,7 @@ public class ModBlocks
     {
         //First float is hardness, second is resistance.
         fakeDiamondBlock = new ModBlock(Material.IRON, SoundType.METAL, 5.0F, 10.0F, "fake_diamond_block");
-        essenceBlock = new ModBlock(Material.ROCK, SoundType.STONE, 5.0F, 10.0F, "essence_block"); //Not Surre IF It Will Be Kept
+        essenceBlock = new ModBlock(Material.ROCK, SoundType.STONE, 4.0F, 9.0F, "essence_block"); //Not Surre IF It Will Be Kept
 
         registerBlocks();
     }
